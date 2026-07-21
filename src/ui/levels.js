@@ -1,5 +1,5 @@
 // LEVELS — choose ጀማሪ / መካከለኛ / ባለሙያ for the picked instrument.
-// A level with no authored lessons yet is shown as "coming soon".
+// Only the fully authored Beginner path is public for launch.
 
 import { INSTRUMENTS, LEVELS, LEVEL_ORDER } from '../config.js';
 import { lessonCount, getLessons } from '../lessons/index.js';
@@ -13,14 +13,19 @@ export function renderLevels(app) {
 
   const cards = LEVEL_ORDER.map((lvKey) => {
     const lv = LEVELS[lvKey];
-    const ready = lessonCount(instKey, lvKey) > 0;
-    const progress = Math.round(levelProgress(app.data, instKey, lvKey, getLessons(instKey,lvKey))*100);
-    return `<button class="level-card" data-level="${lvKey}" ${ready ? '' : 'data-locked="1"'}>
-      <div class="step">${lv.step}</div>
+    const unlocked = lvKey === 'beginner';
+    const lessons = getLessons(instKey, lvKey);
+    const ready = unlocked && lessonCount(instKey, lvKey) > 0;
+    const progress = ready ? Math.round(levelProgress(app.data, instKey, lvKey, lessons)*100) : 0;
+    const levelNumber = LEVEL_ORDER.indexOf(lvKey) + 1;
+    return `<button class="level-card" ${ready ? `data-level="${lvKey}"` : 'data-locked="1" disabled aria-disabled="true"'}>
+      <div class="step">${ready ? lv.step : `ክፍል ${levelNumber} · በቅርቡ`}</div>
       <div class="am">${lv.am}</div>
       <div class="en">${lv.en}</div>
       <div class="desc">${lv.desc.en}</div>
-      <div class="progress-line"><i style="width:${progress}%"></i></div><small>${progress}% complete</small>
+      ${ready
+        ? `<div class="progress-line"><i style="width:${progress}%"></i></div><small>${progress}% complete</small>`
+        : '<span class="lock-pill">🔒 በቅርቡ · Coming soon</span>'}
     </button>`;
   }).join('');
 
@@ -38,7 +43,7 @@ export function renderLevels(app) {
     </div>`;
 
   view.querySelector('[data-act="home"]').addEventListener('click', () => app.home());
-  view.querySelectorAll('[data-level]').forEach((b) =>
+  view.querySelectorAll('[data-level]:not([disabled])').forEach((b) =>
     b.addEventListener('click', () => app.openLevel(instKey, b.dataset.level)));
 
   return view;

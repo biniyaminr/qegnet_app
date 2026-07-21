@@ -6,7 +6,9 @@
   "description": "ቅኝት Music School — learn Ethiopian music from the four kiñit scales.",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node scripts/validate-curriculum.mjs",
     "build": "vite build",
+    "test:curriculum": "node scripts/validate-curriculum.mjs",
     "preview": "vite preview",
     "android:sync": "npm run build && npx cap sync android",
     "android:open": "npx cap open android"

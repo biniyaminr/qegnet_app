@@ -22,6 +22,10 @@ export function createApp(root) {
     widget: null,
   };
   const data = loadStore();
+  if (data.current?.level && data.current.level !== 'beginner') {
+    data.current = null;
+    saveStore(data);
+  }
   setVolume(data.settings.volume);
   document.documentElement.dataset.language = data.settings.language;
 
@@ -88,6 +92,12 @@ export function createApp(root) {
     },
 
     openLevel(instrument, level) {
+      if (level !== 'beginner') {
+        state.instrument = instrument;
+        state.view = 'levels';
+        render();
+        return;
+      }
       stack.push(snapshot());
       state.instrument = instrument;
       state.level = level;

@@ -33,8 +33,8 @@ export function renderHome(app) {
 
   const instCards = INSTRUMENT_ORDER.map((key) => {
     const inst = INSTRUMENTS[key];
-    const all=['beginner','intermediate','expert'].flatMap(l=>getLessons(key,l));
-    const done=['beginner','intermediate','expert'].reduce((n,l)=>n+getLessons(key,l).filter(x=>app.data.completed[`${key}.${l}.${x.id}`]).length,0);
+    const all=getLessons(key,'beginner');
+    const done=all.filter(x=>app.data.completed[`${key}.beginner.${x.id}`]).length;
     const pct=Math.round(done/all.length*100)||0;
     return `<button class="inst-card" data-inst="${key}">
       <div class="ic">${inst.ic}</div>
