@@ -47,7 +47,7 @@ Object.entries(CURRICULUM).forEach(([instrument, levels]) => Object.entries(leve
     id: `${instrument}-${level}-${n+1}`, instrument, level,
     title: { am, en }, body: { am: `${am}። በቀስታ ያዳምጡ፣ ይመልከቱ እና ይድገሙ።`, en: body },
     widget: n === 2 ? 'melody' : 'scale', scale: ['tizita','bati','ambassel'][n],
-    melody: [0,2,3,2,4,3,2,0], exercises: [{ type: exercise }],
+    melody: [0,2,3,2,4,3,2,0], exercises: [],
     quiz: [
       { type: 'choice', prompt: { am: 'የዚህ ትምህርት ዋና ልምምድ?', en: 'What is the focus of this lesson?' }, choices: [en,'Play as fast as possible','Ignore the pulse','Skip listening'], answer: 0 },
       { type: 'choice', prompt: { am: 'ጥሩ ልምምድ ምንድን ነው?', en: 'Which is good practice?' }, choices: ['Listen, then repeat','Rush every note','Never use rhythm','Avoid the root'], answer: 0 },
