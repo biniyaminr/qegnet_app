@@ -1,5 +1,226 @@
 {
   "instrument": "lead",
   "level": "beginner",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "lead-b-1",
+      "widget": "freeplay",
+      "scale": "tizita",
+      "micro": false,
+      "title": { "am": "ሌድ ጊታርን መያዝና ድምፃዊ የመጀመሪያ ኖታ", "en": "Holding the Lead Guitar and a Singing First Note" },
+      "goal": { "am": "ሌድ ጊታሩን በምቾት ይዞ፣ አንድ ኖታን በንጽሕና እያወጡ፣ ሌድ ጊታር የባንዱ ድምፃዊ እንደሆነ መረዳት።", "en": "Hold the lead guitar comfortably, produce one clean sustained note, and understand that lead guitar is the singer of the band." },
+      "body": {
+        "am": "ሌድ ጊታር ዜማን ይይዛል፤ የባንዱ ድምፃዊ ማለት ነው። እያንዳንዱ ኖታ እንደ ተዘመረ ቃል ጥርት ብሎ፣ ተይዞ መስማት አለበት እንጂ እንደ ተመታ ብቻ አያልፍም። የጊታሩን አካል በጭንዎ ላይ ያሳርፉ፤ አንገቱ ትንሽ ወደ ላይ ይመልከት፤ ትከሻዎንና የእጅ አንጓዎን አያጥብቁ። ፒክ ካለዎት በቀስታ ይያዙ፤ ከሌለ በጣት ብቻ ይንኩ። ጣትዎን ከፍሬቱ ብረት ጀርባ በቅርብ በማኖር አንድ ኖታ ይጫወቱና ድምፁ ጥርት ብሎ እስኪያልቅ ድረስ ያዳምጡ።",
+        "en": "Lead guitar carries the melody — it is the singer of the band. Every note should ring out and be held like a sung word, not just struck and left to fade. Rest the guitar body on your thigh with the neck angled slightly up, and keep your shoulders and wrists relaxed. Hold a pick lightly if you have one, or touch the string with a bare finger. Place your fretting fingertip close behind the fret wire, play one note, and listen until its clean tone fully dies away."
+      },
+      "exercises": [
+        { "type": "technique", "instruction": { "am": "ክፍት ከፍተኛ e ክርን አምስት ጊዜ በቀስታ ይንኩና ድምፁ ምን ያህል እንደሚቆይ ያዳምጡ።", "en": "Pluck the open high e string five times slowly and listen for how long each note sustains." } },
+        { "type": "technique", "instruction": { "am": "በA ክር 3ኛ ፍሬት ላይ ከብረቱ ጀርባ ተጭነው Cን ይጫወቱ፤ ልክ እንደ ተዘመረ ድምፅ እስኪያልቅ ይያዙት።", "en": "Fret C at fret 3 of the A string, just behind the wire, and hold it ringing like a sung tone until it fades." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "ሌድ ጊታር በባንድ ውስጥ ምን ሚና ይጫወታል?", "en": "What role does lead guitar play in the band?" }, "choices": ["የባንዱ ድምፃዊ ሆኖ ዜማን ይይዛል · It acts as the band's singer, carrying the melody", "ምትን ብቻ ይጠብቃል · It only keeps the beat", "ዝምታን ይሞላል · It fills silence", "ስም ብቻ ነው · It is a name only"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "ንጹሑን ኖታ ያዳምጡ። ልክ እንደ ተዘመረ ቃል ይቆያል?", "en": "Listen to the clean note. Does it ring like a sung word?" }, "audio": { "midis": [48] }, "choices": ["አዎን፣ ይቆያል · Yes, it sustains", "አይ፣ ወዲያው ይቋረጣል · No, it stops immediately", "ሁለት ኖታ ነው · It is two notes", "ምንም ድምፅ የለም · There is no sound"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ጣትን በፍሬቱ የት ማኖር ንጹሕ ድምፅ ያስገኛል?", "en": "Where should the fingertip sit for a clean note?" }, "choices": ["ከፍሬት ብረቱ ጀርባ በቅርብ · Close behind the fret wire", "በብረቱ ላይ · On top of the wire", "በሁለት ፍሬቶች መሃል · Halfway between frets", "ከክሩ ርቆ · Away from the string"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "lead-b-2",
+      "widget": "named",
+      "scale": "tizita",
+      "micro": false,
+      "title": { "am": "በዝቅተኛ ክሮች ላይ ኖታዎችን ማግኘት — E፣ A፣ D", "en": "Notes on the Low Strings — E, A, D" },
+      "goal": { "am": "ከመጀመሪያዎቹ ጥቂት ፍሬቶች ብቻ በመጠቀም በE፣ Aና D ክሮች ላይ ያሉትን የተፈጥሮ ኖታዎች ማግኘት።", "en": "Locate the natural notes on the E, A, and D strings using only the first few frets." },
+      "body": {
+        "am": "ስድስቱን ክሮች ከመጫወት በፊት እያንዳንዱ ክር የት ምን ኖታ እንዳለው በቀስታ እንወቅ። በዝቅተኛ E ክር፦ ክፍት E፣ 1ኛ F፣ 3ኛ G። በA ክር፦ ክፍት A፣ 2ኛ B፣ 3ኛ C። በD ክር፦ ክፍት D፣ 2ኛ E፣ 3ኛ F። እያንዳንዱን ኖታ ተጫውተው ስሙን ጮክ ብለው ይናገሩ፤ ገና ወደ ከፍተኛ ፍሬቶች አንሄድም።",
+        "en": "Before playing across all six strings, let's learn slowly where each note lives on three of them. On the low E string: open E, fret 1 F, fret 3 G. On the A string: open A, fret 2 B, fret 3 C. On the D string: open D, fret 2 E, fret 3 F. Play each note and say its name aloud — we are not reaching for higher frets yet."
+      },
+      "exercises": [
+        { "type": "note-identification", "instruction": { "am": "የዝቅተኛ Eን ክር 0–1–3 ፍሬቶች በመጫወት E–F–G ብለው ይናገሩ።", "en": "Play frets 0–1–3 on the low E string and say E–F–G aloud." } },
+        { "type": "note-identification", "instruction": { "am": "Aን ክር 0–2–3 ፍሬቶች በመጫወት A–B–C ይበሉ፤ ከዚያ Dን ክር 0–2–3 ፍሬቶች በመጫወት D–E–F ይበሉ።", "en": "Play frets 0–2–3 on the A string saying A–B–C, then frets 0–2–3 on the D string saying D–E–F." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "በዝቅተኛ E ክር 3ኛ ፍሬት ላይ ያለው ኖታ የትኛው ነው?", "en": "Which note is at fret 3 of the low E string?" }, "choices": ["G", "F", "A", "D"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "በA ክር 3ኛ ፍሬት ላይ ያለው ኖታ የትኛው ነው?", "en": "Which note is at fret 3 of the A string?" }, "choices": ["C", "B", "D", "G"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "Eና Gን ያዳምጡ (ዝቅተኛ E ክር ላይ)። ሁለተኛው ከፍ ይላል ወይስ ዝቅ?", "en": "Listen to E and G on the low E string. Does the second note rise or fall?" }, "audio": { "midis": [40, 43] }, "choices": ["ከፍ ይላል · It rises", "ዝቅ ይላል · It falls", "አይለወጥም · It stays the same", "ምት ብቻ ነው · It is only rhythm"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ይህ ትምህርት ከE ክር በተጨማሪ የትኞቹን ሁለት ክሮች ይሸፍናል?", "en": "Besides the low E string, which two strings does this lesson cover?" }, "choices": ["Aና D · A and D", "Gና B · G and B", "Bና ከፍተኛ e · B and high e", "Dና G · D and G"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "lead-b-3",
+      "widget": "named",
+      "scale": "tizita",
+      "micro": false,
+      "title": { "am": "በከፍተኛ ክሮች ላይ ኖታዎችን ማግኘት — G፣ B፣ e", "en": "Notes on the High Strings — G, B, e" },
+      "goal": { "am": "በG፣ Bና ከፍተኛ e ክሮች ላይ የተፈጥሮ ኖታዎችን በማግኘት የስድስቱን ክር ካርታ ማጠናቀቅ።", "en": "Locate the natural notes on the G, B, and high e strings, completing the six-string note map before any phrasing begins." },
+      "body": {
+        "am": "ካለፈው ትምህርት ቀጥለን ሦስቱን ቀሪ ክሮች እንማራለን። በG ክር፦ ክፍት G፣ 2ኛ A፣ 4ኛ B። በB ክር፦ ክፍት B፣ 1ኛ C፣ 3ኛ D። በከፍተኛ e ክር፦ ክፍት E፣ 1ኛ F፣ 3ኛ G። አሁን የስድስቱንም ክር ካርታ አውቀዋል — ወደ ማንሸራተትና ወደ ሌሎች ሐረግ ቴክኒኮች ከመሄዳችን በፊት ይህን መሠረት በደንብ ያጽኑ።",
+        "en": "Continuing from the last lesson, we learn the three remaining strings. On the G string: open G, fret 2 A, fret 4 B. On the B string: open B, fret 1 C, fret 3 D. On the high e string: open E, fret 1 F, fret 3 G. You now know the note map across all six strings — make sure this foundation is solid before we move on to slides and other phrasing techniques."
+      },
+      "exercises": [
+        { "type": "note-identification", "instruction": { "am": "Gን ክር 0–2–4 ፍሬቶች በመጫወት G–A–B ይበሉ።", "en": "Play frets 0–2–4 on the G string and say G–A–B aloud." } },
+        { "type": "note-identification", "instruction": { "am": "Bን ክር 0–1–3 ፍሬቶች በመጫወት B–C–D ይበሉ፤ ከዚያ ከፍተኛ eን ክር 0–1–3 ፍሬቶች በመጫወት E–F–G ይበሉ።", "en": "Play frets 0–1–3 on the B string saying B–C–D, then frets 0–1–3 on the high e string saying E–F–G." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "በG ክር 4ኛ ፍሬት ላይ ያለው ኖታ የትኛው ነው?", "en": "Which note is at fret 4 of the G string?" }, "choices": ["B", "A", "C", "D"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "በከፍተኛ e ክር 3ኛ ፍሬት ላይ ያለው ኖታ የትኛው ነው?", "en": "Which note is at fret 3 of the high e string?" }, "choices": ["G", "F", "A", "B"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "Bና Dን ያዳምጡ (B ክር ላይ)። ሁለተኛው ከፍ ይላል ወይስ ዝቅ?", "en": "Listen to B and D on the B string. Does the second note rise or fall?" }, "audio": { "midis": [59, 62] }, "choices": ["ከፍ ይላል · It rises", "ዝቅ ይላል · It falls", "አይለወጥም · It stays the same", "ሁለት ክር ናቸው · They are two strings"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ይህ ትምህርት ካለፈው ጋር ተደምሮ ስንት ክሮችን ይሸፍናል?", "en": "Combined with the previous lesson, how many strings has this note map now covered?" }, "choices": ["ስድስቱንም · All six", "አራት · Four", "ሁለት · Two", "ሦስት · Three"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "lead-b-4",
+      "widget": "melody",
+      "scale": "tizita",
+      "micro": true,
+      "melody": [1, 2, 3, 4, 3, 2, 1, 0],
+      "title": { "am": "ወደ ኖታ ማንሸራተት", "en": "Sliding Into a Note" },
+      "goal": { "am": "ማንሸራተትን እንደ ድምፃዊ የድምፅ መንሸራተት (ማሲንቆ ስልት) በመጠቀም ከD ወደ Eና ከG ወደ A በለስላሳ ማንሸራተት።", "en": "Use the slide as a vocal glide (masinko-style) to move smoothly from D into E and from G into A." },
+      "body": {
+        "am": "ማንሸራተት ማለት አንድ ኖታ ከተነካ በኋላ ጣትዎን ሳያነሱ በዚያው ክር ወደ ሌላ ፍሬት መጎተት ነው — ልክ ድምፃዊ ከአንድ ቃና ወደ ሌላው እንደሚንሸራተት። ክፍት Dን በD ክር ይንኩና ጣትዎን ወደ 2ኛ ፍሬት Eን በመጎተት ሁለቱ ድምፆች ተያይዘው እንዲሰሙ ያድርጉ። ተመሳሳይ ማንሸራተትን ከክፍት G ወደ 2ኛ ፍሬት A በG ክር ይድገሙ። ፍጥነቱ ዘና ያለና ተፈጥሯዊ ይሁን፤ አትቸኩሉ።",
+        "en": "A slide means touching one note, then—without lifting the finger—dragging it along the same string to another fret, the way a singer glides from one pitch to the next. Pluck open D on the D string and slide your finger up to fret 2 for E, letting the two pitches sound as one connected motion. Repeat the same idea from open G to fret 2 A on the G string. Keep the motion relaxed and natural — do not rush it."
+      },
+      "exercises": [
+        { "type": "slide", "instruction": { "am": "ክፍት Dን ይንኩና ወደ 2ኛ ፍሬት Eን በቀስታ ያንሸራትቱ፤ አምስት ጊዜ ይድገሙ።", "en": "Pluck open D and slide slowly up to fret 2 for E; repeat five times." } },
+        { "type": "slide", "instruction": { "am": "ኦሪጅናሉን D–E–G–A–G–E–D–C ሐረግ ያዳምጡና ሁለቱን ማንሸራተቻዎች እየለዩ ይድገሙት።", "en": "Listen to the original D–E–G–A–G–E–D–C phrase and echo it, picking out both slides." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "ማንሸራተት ምንድን ነው?", "en": "What is a slide?" }, "choices": ["ጣትን ሳያነሱ ወደ ሌላ ፍሬት መጎተት · Dragging the fretting finger to another fret without lifting it", "ክሩን ሁለት ጊዜ መንካት · Plucking the string twice", "ሁለት ክር በአንድ ጊዜ መምታት · Striking two strings at once", "ድምፁን ሙሉ በሙሉ ማቆም · Stopping the note completely"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "ከD ወደ Eን ማንሸራተቱን ያዳምጡ። ድምፁ ይነሳል ወይስ ይወርዳል?", "en": "Listen to the slide from D to E. Does the pitch rise or fall?" }, "audio": { "midis": [50, 52] }, "choices": ["ይነሳል · It rises", "ይወርዳል · It falls", "አይለወጥም · It stays the same", "ሁለት ኖታ አይደለም · It is not two notes"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ሌድ ተጫዋቾች ማንሸራተትን የሚጠቀሙት ለምንድን ነው?", "en": "Why do lead players use slides?" }, "choices": ["ኖታዎችን እንደ ድምፅ በለስላሳ ለማገናኘት · To connect notes smoothly like a voice", "ድምፁን ከፍ ለማድረግ ብቻ · Only to make the note louder", "መሠረቱን ለመዝለል · To skip the root", "ክሩን ለማፍታት · To loosen the string"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "lead-b-5",
+      "widget": "melody",
+      "scale": "tizita",
+      "micro": true,
+      "melody": [3, 4, 3, 0, 3, 4, 3, 0],
+      "title": { "am": "ሃመር-ኦንና ፑል-ኦፍ", "en": "Hammer-ons and Pull-offs" },
+      "goal": { "am": "ጣትን በፍሬቱ ላይ በመምታት (ሃመር-ኦን) እና በማላቀቅ (ፑል-ኦፍ) ኖታዎችን ሳይነካኩ በለስላሳ ማገናኘት።", "en": "Sound notes without re-picking by hammering a finger onto a fret (hammer-on) and flicking it off (pull-off), connecting notes smoothly." },
+      "body": {
+        "am": "ሃመር-ኦን ማለት ክፍት ወይም ዝቅተኛ ኖታ ከተነካ በኋላ ጣትን በከፍተኛ ፍሬት ላይ በጥንካሬ በመምታት ሳይነካኩ ቀጣዩን ኖታ ማሰማት ነው። ፑል-ኦፍ ደግሞ ተቃራኒው ነው፦ የተጫነ ጣትን ወደ ታች ትንሽ ጎትተው በማላቀቅ ወደ ዝቅተኛው ኖታ መመለስ። ክፍት Gን ይንኩና ወደ 2ኛ ፍሬት Aን ይምቱ (ሃመር-ኦን)፤ ከዚያ Aን ይያዙና ጣትዎን በማላቀቅ ወደ ክፍት G ይመለሱ (ፑል-ኦፍ)። ይህ ልክ እንደ ድምፃዊ እስትንፋስ ያለምንም መቆራረጥ ኖታ ወደ ኖታ ይፈስሳል።",
+        "en": "A hammer-on sounds a higher note by striking a fret firmly with a fretting finger after an open or lower note, without picking again. A pull-off is the reverse: flick a fretted finger downward off the string to let a lower note or open string ring. Pluck open G, then hammer onto fret 2 for A; hold A, then pull off back to open G. Like a singer's breath, the notes flow into one another with no break."
+      },
+      "exercises": [
+        { "type": "hammer-pull", "instruction": { "am": "ክፍት Gን ይንኩና ወደ Aን ሃመር-ኦን ያድርጉ፤ ስድስት ጊዜ ይድገሙ።", "en": "Pluck open G and hammer on to A; repeat six times." } },
+        { "type": "hammer-pull", "instruction": { "am": "Aን ይያዙና ወደ ክፍት G ፑል-ኦፍ ያድርጉ፤ ከዚያ ሃመር-ኦንና ፑል-ኦፍን ደጋግመው ተለማመዱ።", "en": "Hold A and pull off to open G; then repeat the hammer-on/pull-off pair back to back." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "ሃመር-ኦን ምንድን ነው?", "en": "What is a hammer-on?" }, "choices": ["ሳይነካኩ ጣትን በከፍተኛ ፍሬት ላይ በመምታት ኖታ ማሰማት · Sounding a note by striking a higher fret without re-picking", "ክሩን ሁለት ጊዜ በፒክ መምታት · Picking the string twice", "ጣትን ከክሩ ላይ ማንሳት ብቻ · Simply lifting the finger off the string", "ድምፁን ዝም ማድረግ · Muting the note"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ፑል-ኦፍ ምንድን ነው?", "en": "What is a pull-off?" }, "choices": ["የተጫነ ጣትን በማላቀቅ ወደ ዝቅተኛ ኖታ መመለስ · Flicking a fretted finger off to sound a lower note or open string", "ጣትን ወደ ከፍተኛ ፍሬት መጎተት · Dragging the finger to a higher fret", "ክሩን ሙሉ በሙሉ ማቆም · Stopping the string entirely", "ፒኩን መጣል · Dropping the pick"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "ከG ወደ Aን ሃመር-ኦንን ያዳምጡ። ድምፁ ይነሳል?", "en": "Listen to the G-to-A hammer-on. Does the pitch rise?" }, "audio": { "midis": [55, 57] }, "choices": ["አዎን፣ ይነሳል · Yes, it rises", "አይ፣ ይወርዳል · No, it falls", "አይለወጥም · It stays the same", "ጸጥታ ብቻ ነው · It is only silence"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "lead-b-6",
+      "widget": "melody",
+      "scale": "bati",
+      "micro": true,
+      "melody": [0, 1, 2, 3, 4, 3, 1, 0],
+      "title": { "am": "የባቲ ፍለጋ ልቅሶ", "en": "Bati's Searching Cry" },
+      "goal": { "am": "C ባቲን C–E–F–G–Bን በመጠቀም ከE ወደ Fን ማንሸራተትን በመጠቀም ኦሪጅናል ድምፃዊ ሐረግ መጫወት።", "en": "Use C Bati's C–E–F–G–B and a slide from E into F to play an original, voice-like phrase." },
+      "body": {
+        "am": "C ባቲ C–E–F–G–B ነው። Eና F በአንድ ፍሬት ብቻ ይራራቃሉና ማንሸራተታቸው ልክ እንደ ድምፃዊ ፍለጋ ልቅሶ ይሰማል። Eን በD ክር 2ኛ ፍሬት ይንኩና ጣትዎን ወደ 3ኛ ፍሬት Fን ያንሸራትቱ። ከዚያ ክፍት Gን፣ ክፍት Bን ተጫውተው ወደ E ተመልሰው በመጨረሻ ወደ Cን ያርፉ። ማንሸራተቱ አጭርና ስሜታዊ ይሁን።",
+        "en": "C Bati is C–E–F–G–B. E and F are only one fret apart, so sliding between them sounds like a singer's searching cry. Touch E at D-string fret 2 and slide your finger to fret 3 for F. Then play open G, open B, return to E, and finally settle on C. Keep the slide short and expressive."
+      },
+      "exercises": [
+        { "type": "slide", "instruction": { "am": "Eን ይንኩና ወደ Fን በቀስታ ያንሸራትቱ፤ ስምንት ጊዜ ይድገሙ።", "en": "Touch E and slide slowly to F; repeat eight times." } },
+        { "type": "phrase", "instruction": { "am": "ኦሪጅናሉን C–E–F–G–B–G–E–C ሐረግ ያዳምጡና ልክ እንደ ድምፃዊ ይድገሙት።", "en": "Listen to the original C–E–F–G–B–G–E–C phrase and echo it as if singing it." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "የC ባቲ ኖታዎች የትኞቹ ናቸው?", "en": "Which notes make C Bati?" }, "choices": ["C E F G B", "C D E G A", "C Db F G Ab", "C Db F Gb A"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "ከE ወደ Fን ማንሸራተቱን ያዳምጡ። ምን ያህል ይራራቃሉ?", "en": "Listen to the slide from E to F. How far apart are they?" }, "audio": { "midis": [52, 53] }, "choices": ["አንድ ፍሬት · One fret", "ሁለት ፍሬት · Two frets", "አንድ ኦክታቭ · One octave", "አይራራቁም · They are the same"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ይህ ሐረግ የትኛውን ስሜት ያንጸባርቃል?", "en": "What feeling does this phrase reflect?" }, "choices": ["የባቲን ብሩህና ፈላጊ ቀለም · Bati's bright, searching color", "የአምባሰልን ናፍቆት · Ambassel's yearning", "የአንቺሆዬን ድፍረት · Anchihoye's boldness", "ምንም ስሜት የለውም · No feeling at all"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "lead-b-7",
+      "widget": "melody",
+      "scale": "ambassel",
+      "micro": true,
+      "melody": [0, 3, 1, 0, 2, 4, 2, 0],
+      "title": { "am": "የአምባሰል ወዳቂ ትንፋሽ", "en": "Ambassel's Falling Sigh" },
+      "goal": { "am": "C አምባሰልን C–Db–F–G–Abን በመጠቀም ከDb ወደ Cን በፑል-ኦፍ የሚወርድ የናፍቆት ትንፋሽ መጫወት።", "en": "Use C Ambassel's C–Db–F–G–Ab and a pull-off from Db down to C to play a yearning, sighing phrase." },
+      "body": {
+        "am": "C አምባሰል C–Db–F–G–Ab ነው። Dbን በA ክር 4ኛ ፍሬት ይያዙና ወደ 3ኛ ፍሬት Cን ፑል-ኦፍ ያድርጉ — ይህ ውድቀት ልክ እንደ ናፍቆት ትንፋሽ ይሰማል። Cን ተጫውተው Gን ቀጥሎ፣ Dbን ይያዙና ወደ Cን ይፍቱት፤ ከዚያ Fና Abን ጨምረው በመጨረሻ ወደ Cን ያርፉ።",
+        "en": "C Ambassel is C–Db–F–G–Ab. Hold Db at A-string fret 4 and pull off to fret 3 for C — the fall sounds like a sighing breath of longing. Play C, then G, hold Db and release it into C, add F and Ab, and finally settle back on C."
+      },
+      "exercises": [
+        { "type": "hammer-pull", "instruction": { "am": "Dbን ይያዙና ወደ Cን ፑል-ኦፍ ያድርጉ፤ ስድስት ጊዜ ይድገሙ።", "en": "Hold Db and pull off to C; repeat six times." } },
+        { "type": "phrase", "instruction": { "am": "ኦሪጅናሉን C–G–Db–C–F–Ab–F–C ሐረግ ያዳምጡና ትንፋሹን እያሰቡ ይድገሙት።", "en": "Listen to the original C–G–Db–C–F–Ab–F–C phrase and echo it, imagining the sigh." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "የC አምባሰል ኖታዎች የትኞቹ ናቸው?", "en": "Which notes make C Ambassel?" }, "choices": ["C Db F G Ab", "C E F G B", "C D E G A", "C Db F Gb A"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "ከDb ወደ Cን ፑል-ኦፍ ያዳምጡ። ድምፁ ይወርዳል?", "en": "Listen to the pull-off from Db to C. Does the pitch fall?" }, "audio": { "midis": [49, 48] }, "choices": ["አዎን፣ ይወርዳል · Yes, it falls", "አይ፣ ይነሳል · No, it rises", "አይለወጥም · It stays the same", "ጸጥታ ብቻ ነው · It is only silence"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ይህ ፑል-ኦፍ የትኛውን ስሜት ይገልጻል?", "en": "What feeling does this pull-off express?" }, "choices": ["የናፍቆት ትንፋሽ · A sigh of longing", "ደስታ · Joy", "ንዴት · Anger", "ፍጥነት · Speed"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "lead-b-8",
+      "widget": "melody",
+      "scale": "anchihoye",
+      "micro": true,
+      "melody": [0, 2, 3, 4, 4, 3, 2, 0],
+      "title": { "am": "የአንቺሆዬ ደፋር ጥሪ", "en": "Anchihoye's Bold Call" },
+      "goal": { "am": "C አንቺሆዬን C–Db–F–Gb–Aን በመጠቀም ከF ወደ Gbን በሃመር-ኦን ደፋር የጥሪና-መልስ ሐረግ መጫወት።", "en": "Use C Anchihoye's C–Db–F–Gb–A and a hammer-on from F into Gb to play a bold, azmari-style call-and-response phrase." },
+      "body": {
+        "am": "C አንቺሆዬ C–Db–F–Gb–A ነው፤ Gን አይጠቀምም። Fን በD ክር 3ኛ ፍሬት ይንኩና ወደ 4ኛ ፍሬት Gbን ሃመር-ኦን ያድርጉ — ይህ ደፋር ጥሪ ይፈጥራል። ጥሪው C–F–Gb–A ይሁን፤ መልሱ ደግሞ A–Gb–F–C ተመልሶ ይምጣ፤ ልክ እንደ አዝማሪ ጥሪና-መልስ።",
+        "en": "C Anchihoye is C–Db–F–Gb–A; it does not use G. Touch F at D-string fret 3 and hammer on to fret 4 for Gb — this creates a bold call. Let the call be C–F–Gb–A, and let the response answer back with A–Gb–F–C, in the spirit of an azmari call-and-response."
+      },
+      "exercises": [
+        { "type": "hammer-pull", "instruction": { "am": "Fን ይንኩና ወደ Gbን ሃመር-ኦን ያድርጉ፤ ስድስት ጊዜ ይድገሙ።", "en": "Touch F and hammer on to Gb; repeat six times." } },
+        { "type": "call-response", "instruction": { "am": "ጥሪውን C–F–Gb–A ተጫውተው መልሱን A–Gb–F–C ይመልሱ፤ እንደ ንግግር ያድርጉት።", "en": "Play the call C–F–Gb–A, then answer with A–Gb–F–C, as if in conversation." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "የC አንቺሆዬ ኖታዎች የትኞቹ ናቸው?", "en": "Which notes make C Anchihoye?" }, "choices": ["C Db F Gb A", "C Db F G Ab", "C E F G B", "C D E G A"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "ከF ወደ Gbን ሃመር-ኦን ያዳምጡ። ምን ያህል ይራራቃሉ?", "en": "Listen to the hammer-on from F to Gb. How far apart are they?" }, "audio": { "midis": [53, 54] }, "choices": ["አንድ ፍሬት · One fret", "ሁለት ፍሬት · Two frets", "አምስት ፍሬት · Five frets", "አንድ ኦክታቭ · One octave"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ይህ ሐረግ የትኛውን ስልት ይከተላል?", "en": "Which style does this phrase follow?" }, "choices": ["የአዝማሪ ጥሪና-መልስ · Azmari call-and-response", "ጸጥ ያለ ስትረም · A quiet strum", "ሜትሮኖም ብቻ · A metronome alone", "ኮርድ ብቻ · A chord only"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "lead-b-9",
+      "widget": "melody",
+      "scale": "tizita",
+      "micro": true,
+      "melody": [1, 2, 3, 4, 3, 0, 4, 0],
+      "title": { "am": "ቅኝቱን በድምፅ ስሜት መዘመር", "en": "Singing Through the Kiñit" },
+      "goal": { "am": "ማንሸራተትን፣ ሃመር-ኦንንና ፑል-ኦፍን በአንድ ረዥም የትዝታ ሐረግ ውስጥ በማዋሃድ ልክ እንደ ድምፃዊ ትንፋሽ መጫወት።", "en": "Combine slides, hammer-ons, and pull-offs into one longer Tizita phrase that breathes like a singer." },
+      "body": {
+        "am": "እስካሁን የተማርናቸውን ሦስቱን ቴክኒኮች እናዋህዳለን። ክፍት Dን ወደ Eን ያንሸራትቱ (ማንሸራተት)፤ ክፍት Gን ወደ Aን ሃመር-ኦን ያድርጉ፤ Aን ወደ ክፍት G ፑል-ኦፍ ያድርጉ፤ ከዚያ Cን አጽንተው ወደ Aን መልሰው ወደ Cን ያርፉ። እያንዳንዱ ቴክኒክ ለብቻው ግልጽ ይሰማ፤ ሁሉም ግን አንድ ላይ ተያይዘው ልክ እንደ አንድ ትንፋሽ ይፍሰሱ።",
+        "en": "Now we weave together the three techniques learned so far. Slide from open D into E, hammer on from open G into A, pull off from A back to open G, then anchor C, return to A, and settle on C. Each technique should still sound distinct, yet all of them should flow together like a single breath."
+      },
+      "exercises": [
+        { "type": "phrase", "instruction": { "am": "ማንሸራተቱን ብቻ አምስት ጊዜ ይድገሙ፤ ከዚያ ሃመር-ኦን–ፑል-ኦፍ ጥንዱን ብቻ አምስት ጊዜ ይድገሙ።", "en": "Repeat the slide alone five times, then the hammer-on/pull-off pair alone five times." } },
+        { "type": "phrase", "instruction": { "am": "ኦሪጅናሉን D–E–G–A–G–C–A–C ሐረግ ሙሉ በሙሉ ያዳምጡና ልክ እንደ ድምፃዊ ትንፋሽ ይድገሙት።", "en": "Listen to the full original D–E–G–A–G–C–A–C phrase and echo it as one singing breath." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "ይህ ሐረግ የትኞቹን ሦስት ቴክኒኮች ያዋህዳል?", "en": "Which three techniques does this phrase combine?" }, "choices": ["ማንሸራተት፣ ሃመር-ኦንና ፑል-ኦፍ · Slide, hammer-on, and pull-off", "ስትረምና ፍሪንገርፒኪንግ ብቻ · Strumming and fingerpicking only", "ሜትሮኖምና ድምፅ ማጥፋት · Metronome and muting only", "ኮርድና ቅኝት ብቻ · Chords and scales only"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "ሐረጉ በማንሸራተት ይከፈታል። ከዚያ የቀጠለው ቴክኒክ የትኛው ነው?", "en": "The phrase opens with the slide. Which technique follows it?" }, "audio": { "midis": [50, 52, 55, 57] }, "choices": ["ሃመር-ኦን · The hammer-on", "ፑል-ኦፍ ብቻ · A pull-off alone", "ሌላ ማንሸራተት · Another slide", "ጸጥታ · Silence"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ሁሉንም ቴክኒኮች ስናዋህድ ዋናው ግብ ምንድን ነው?", "en": "When combining all the techniques, what is the main goal?" }, "choices": ["እያንዳንዱ ግልጽ ሆኖ ሁሉም ግን እንደ አንድ ትንፋሽ መፍሰስ · Keep each one distinct while all flow like one breath", "በተቻለ ፍጥነት መጫወት · Play as fast as possible", "አንድ ቴክኒክ ብቻ መጠቀም · Use only one technique", "ክፍተትን ማስወገድ · Eliminate all space"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "lead-b-10",
+      "widget": "melody",
+      "scale": "tizita",
+      "micro": true,
+      "melody": [0, 1, 2, 3, 4, 3, 2, 0],
+      "title": { "am": "አራቱ ቅኝቶች—የሌድ ትርዒት", "en": "Four-Kiñit Lead Performance" },
+      "goal": { "am": "ለእያንዳንዱ ቅኝት የተለየ ድምፃዊ ቴክኒክ በመጠቀም አራት ኦሪጅናል ሐረጎችን እንደ ዘፈን መጫወት።", "en": "Perform four original phrases, one per kiñit, each using a distinct vocal-style technique, so the guitar sings." },
+      "body": {
+        "am": "ትርዒትዎ አራት ክፍሎች አሉት፤ ሁሉም እንደ ዘፈን ይታሰቡ፦ ትዝታ—C–D–E–G–A–G–E–C በማንሸራተትና በሃመር-ኦን/ፑል-ኦፍ የተዋሃደ፤ ባቲ—C–E–F–G–B–G–E–C በE-ወደ-Fን ማንሸራተት፤ አምባሰል—C–G–Db–C–F–Ab–F–C በDbን ፑል-ኦፍ ትንፋሽ፤ አንቺሆዬ—C–F–Gb–A–A–Gb–F–C በጥሪና-መልስ ሃመር-ኦን። እያንዳንዱን ክፍል ልክ እንደ ዘፈን ሐረግ አድርገው፣ ትንፋሽ እየወሰዱ፣ ያገናኙ።",
+        "en": "Your performance has four sections, each meant to sing: Tizita—C–D–E–G–A–G–E–C, woven with slides and the hammer-on/pull-off pair; Bati—C–E–F–G–B–G–E–C, using the E-to-F slide; Ambassel—C–G–Db–C–F–Ab–F–C, with the Db pull-off sigh; Anchihoye—C–F–Gb–A–A–Gb–F–C, with the call-and-response hammer-on. Connect each section like a sung phrase, taking a breath between them."
+      },
+      "exercises": [
+        { "type": "performance", "instruction": { "am": "እያንዳንዱን ቅኝት ለብቻው በ54 BPM አራት ጊዜ ይጫወቱ፤ የተማሩትን ቴክኒክ በእያንዳንዱ ውስጥ ያካትቱ።", "en": "Practice each kiñit section alone four times at 54 BPM, including its signature technique." } },
+        { "type": "performance", "instruction": { "am": "አራቱን ክፍሎች ሳያቋርጡ ያገናኙ፤ ልክ ድምፃዊ እንደሚተነፍስ በክፍሎቹ መካከል ትንሽ ትንፋሽ ይውሰዱ።", "en": "Connect all four sections without stopping, taking a small breath between them the way a singer would." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "በዚህ ትርዒት ውስጥ የባቲን ክፍል የሚለየው ቴክኒክ የትኛው ነው?", "en": "Which technique marks the Bati section of this performance?" }, "choices": ["ከE ወደ Fን ማንሸራተት · The slide from E to F", "ከDb ፑል-ኦፍ · The pull-off from Db", "ጥሪና-መልስ ሃመር-ኦን · The call-and-response hammer-on", "ስትረም ብቻ · Strumming alone"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "ይህን C–G–Db–C–F–Ab–F–C ሐረግ ያዳምጡ። የትኛው ቅኝት ነው?", "en": "Listen to C–G–Db–C–F–Ab–F–C. Which kiñit is it?" }, "audio": { "midis": [48, 55, 49, 48, 53, 56, 53, 48] }, "choices": ["አምባሰል · Ambassel", "ትዝታ · Tizita", "ባቲ · Bati", "አንቺሆዬ · Anchihoye"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "ይህን C–F–Gb–A–A–Gb–F–C ሐረግ ያዳምጡ። የትኛው ቅኝት ነው?", "en": "Listen to C–F–Gb–A–A–Gb–F–C. Which kiñit is it?" }, "audio": { "midis": [48, 53, 54, 57, 57, 54, 53, 48] }, "choices": ["አንቺሆዬ · Anchihoye", "ባቲ · Bati", "ትዝታ · Tizita", "አምባሰል · Ambassel"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ትርዒቱን በሙሉ የሚያስተሳስረው ምንድን ነው?", "en": "What ties the entire performance together?" }, "choices": ["እያንዳንዱን ክፍል እንደ ዘፈን ሐረግ አድርጎ በትንፋሽ ማገናኘት · Treating each section as a sung phrase, connected by breath", "በተቻለ ፍጥነት መጫወት · Playing as fast as possible", "ኮርድ መደጋገም · Repeating chords", "ቅኝት መቀየር አለመቻል · Being unable to change kiñit"], "answer": 0 }
+      ]
+    }
+  ]
 }
