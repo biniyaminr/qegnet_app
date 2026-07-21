@@ -36,6 +36,13 @@ export function renderLesson(app) {
   const total = lessons.length;
   const idx = app.state.lesson;
 
+  // Model the new step-based lesson flow on Acoustic Beginner Lesson 1 only.
+  // The runner itself is data-driven so it can be enabled for every authored
+  // lesson after the interaction model is approved.
+  if (instrument === 'acoustic' && level === 'beginner' && L.id === 'ac-b-1') {
+    return renderStepLesson(app, { lessons, lesson: L, tone, total, idx });
+  }
+
   const view = el('div', 'view');
   const levelName = `${LEVELS[level].am} · ${LEVELS[level].en}`;
   const prog = Array.from({ length: total }, (_, i) => `<i class="${i <= idx ? 'on' : ''}"></i>`).join('');
@@ -201,6 +208,227 @@ export function renderLesson(app) {
 
   active = { stop() { clearSeq(); metro.stop(); instrumentView.destroy?.(); } };
   return view;
+}
+
+function renderStepLesson(app, { lessons, lesson, tone, total, idx }) {
+  const { instrument, level } = app.state;
+  const bodyChunks = chunkBilingualBody(lesson.body);
+  const questions = lesson.quiz.slice(0, 5);
+  const steps = [
+    ...(lesson.goal ? [{ type: 'goal' }] : []),
+    ...bodyChunks.map((chunk, index) => ({ type: 'body', chunk, index })),
+    ...(lesson.exercises || []).map((exercise, index) => ({ type: 'exercise', exercise, index })),
+    ...questions.map((question, index) => ({ type: 'quiz', question, index })),
+    { type: 'result' },
+  ];
+  const firstQuizStep = steps.findIndex((step) => step.type === 'quiz');
+  const answers = Array(questions.length).fill(null);
+  let at = 0;
+  let resultRecorded = false;
+
+  const view = el('div', 'view step-lesson');
+  view.innerHTML = `
+    <div class="wrap runner-wrap">
+      <div class="runner-progress">
+        <button class="runner-exit" data-act="levels" aria-label="Exit lesson">×</button>
+        <div class="runner-track" role="progressbar" aria-label="Lesson step progress" aria-valuemin="1" aria-valuemax="${steps.length}" aria-valuenow="1"><i data-runnerfill></i></div>
+        <span data-runnercount>1 / ${steps.length}</span>
+      </div>
+
+      <div class="runner-heading">
+        <span>ትምህርት ${idx + 1} / ${total} · Lesson ${idx + 1}</span>
+        <h1>${lesson.title.am}</h1>
+        <p>${lesson.title.en}</p>
+      </div>
+
+      <main class="runner-screen" data-runnerscreen aria-live="polite"></main>
+
+      <section class="runner-studio" data-runnerstudio hidden>
+        <div class="runner-studio-head">
+          <span>🎸 እርስዎ ይሞክሩ · Your turn</span>
+          <small>ኖታዎቹን ይንኩ · tap the notes</small>
+        </div>
+        <div class="stage stage-${instrument}">
+          <p class="stage-caption" data-cap></p>
+          <div data-stage></div>
+        </div>
+        <div class="runner-swipe-hint">← ፍሬቶቹን ለማየት ያንሸራትቱ · swipe the fretboard →</div>
+      </section>
+
+      <div class="runner-actions">
+        <button class="runner-back" data-runnerback aria-label="Previous step">←</button>
+        <button class="btn runner-continue" data-runnernext>ቀጥል · Continue</button>
+      </div>
+    </div>`;
+
+  const instrumentView = instrument === 'keyboard' ? createKeyboard({
+    showLabels: true,
+    onHit: (m) => playNote(m, tone),
+  }) : createFretboard({ instrument, onHit: (m) => playNote(m, tone) });
+  view.querySelector('[data-stage]').appendChild(instrumentView.el);
+  const desktop = isDesktopInput();
+  instrumentView.setInputEnabled?.(desktop);
+  instrumentView.setHintsVisible?.(desktop && !!app.data.settings.keyLabels);
+  instrumentView.highlight({
+    scaleKey: app.state.scale,
+    rootIdx: app.state.root,
+    colorScale: !(lesson.widget === 'freeplay' || lesson.widget === 'named' || lesson.widget === 'tuner'),
+    flats: SCALES[app.state.scale].flats,
+  });
+  view.querySelector('[data-cap]').textContent = lesson.widget === 'freeplay'
+    ? 'ማንኛውንም ፍሬት ይንኩ፤ ኖታውን ያዳምጡ · tap any fret and listen'
+    : 'ኖታዎቹን ይንኩና ብርሃናቸውን ይመልከቱ · tap a note and watch it glow';
+
+  const screen = view.querySelector('[data-runnerscreen]');
+  const studio = view.querySelector('[data-runnerstudio]');
+  const progress = view.querySelector('.runner-track');
+  const fill = view.querySelector('[data-runnerfill]');
+  const count = view.querySelector('[data-runnercount]');
+  const back = view.querySelector('[data-runnerback]');
+  const next = view.querySelector('[data-runnernext]');
+
+  const playQuizAudio = (question) => {
+    if (!question.audio?.midis?.length) return;
+    unlockAudio();
+    const gap = question.audio.gap ?? .55;
+    question.audio.midis.forEach((m, i) => playNote(m, tone, i * gap, Math.min(.7, gap * .9)));
+  };
+
+  const score = () => Math.round(answers.filter((choice, i) => choice === questions[i].answer).length / questions.length * 100);
+
+  const draw = () => {
+    const step = steps[at];
+    const pct = ((at + 1) / steps.length) * 100;
+    fill.style.width = `${pct}%`;
+    progress.setAttribute('aria-valuenow', String(at + 1));
+    count.textContent = `${at + 1} / ${steps.length}`;
+    back.disabled = at === 0;
+    studio.hidden = step.type !== 'exercise';
+    view.classList.toggle('runner-compact', step.type === 'exercise' || step.type === 'quiz' || step.type === 'result');
+    next.hidden = false;
+    next.disabled = false;
+    next.textContent = 'ቀጥል · Continue';
+
+    if (step.type === 'goal') {
+      screen.innerHTML = `<article class="runner-card runner-goal">
+        <div class="runner-step-icon">✦</div>
+        <div class="runner-label">ዛሬ ምን ይማራሉ? · Here’s what you’ll learn</div>
+        <h2>${lesson.goal.am}</h2>
+        <p>${lesson.goal.en}</p>
+      </article>`;
+    } else if (step.type === 'body') {
+      const isLastBody = step.index === bodyChunks.length - 1;
+      screen.innerHTML = `<article class="runner-card runner-idea">
+        <div class="runner-step-icon">${step.index + 1}</div>
+        <div class="runner-label">ትንሽ ሀሳብ · One small idea</div>
+        <h2>${step.chunk.am}</h2>
+        <p>${step.chunk.en}</p>
+        ${lesson.micro && isLastBody ? '<div class="runner-note">ባህላዊ ቅኝት ከፒያኖ ኖታዎች መካከል ስውር የድምፅ ጥላዎች አሉት። · Traditional kiñit contains subtle shades between western notes.</div>' : ''}
+      </article>`;
+    } else if (step.type === 'exercise') {
+      screen.innerHTML = `<article class="runner-card runner-practice-card">
+        <div class="runner-step-icon">${step.index + 1}</div>
+        <div class="runner-label">ልምምድ ${step.index + 1} · Practice ${step.index + 1}</div>
+        <h2>${step.exercise.instruction.am}</h2>
+        <p>${step.exercise.instruction.en}</p>
+        <div class="runner-try-cue">ከታች ባለው ጊታር ላይ አሁን ይሞክሩ · Try it on the guitar below</div>
+      </article>`;
+    } else if (step.type === 'quiz') {
+      const question = step.question;
+      const chosen = answers[step.index];
+      const answered = chosen !== null;
+      const listen = question.type === 'ear-training' && question.audio?.midis?.length;
+      screen.innerHTML = `<article class="runner-card runner-quiz-card">
+        <div class="runner-label">ጥያቄ ${step.index + 1} / ${questions.length} · Question ${step.index + 1}</div>
+        <h2>${question.prompt.am}</h2>
+        <p>${question.prompt.en}</p>
+        ${listen ? '<button class="btn sec runner-listen" data-listen>▶ ድምፁን ያዳምጡ · Play sound</button>' : ''}
+        <div class="runner-answer-grid">${question.choices.map((choice, choiceIndex) => {
+          const correct = answered && choiceIndex === question.answer;
+          const wrong = answered && choiceIndex === chosen && choiceIndex !== question.answer;
+          return `<button data-answer="${choiceIndex}" class="${correct ? 'correct' : ''} ${wrong ? 'wrong' : ''}" ${answered ? 'disabled' : ''}>${choice}</button>`;
+        }).join('')}</div>
+        ${answered ? `<div class="runner-feedback ${chosen === question.answer ? 'good' : 'bad'}">${chosen === question.answer ? '✓ በጣም ጥሩ! · Excellent!' : `ትክክለኛው፦ ${question.choices[question.answer]}`}</div>` : ''}
+      </article>`;
+      next.disabled = !answered;
+      screen.querySelector('[data-listen]')?.addEventListener('click', () => playQuizAudio(question));
+      screen.querySelectorAll('[data-answer]').forEach((choice) => choice.addEventListener('click', () => {
+        answers[step.index] = +choice.dataset.answer;
+        if (answers[step.index] !== question.answer) instrumentView.flash(60);
+        draw();
+      }));
+    } else {
+      const finalScore = score();
+      const pass = finalScore >= 70;
+      screen.innerHTML = `<article class="runner-card runner-result ${pass ? 'pass' : 'retry'}">
+        <div class="runner-step-icon">${pass ? '✓' : '↻'}</div>
+        <div class="runner-label">${pass ? 'ትምህርቱ ተጠናቋል · Lesson complete' : 'አንድ ጊዜ ተጨማሪ · One more try'}</div>
+        <strong>${finalScore}%</strong>
+        <h2>${pass ? 'እጅግ ጥሩ ሥራ!' : 'እንደገና ይሞክሩ'}</h2>
+        <p>${pass ? 'Great work — your hands and ears are ready for the next lesson.' : 'Review the three questions and try to reach 70%.'}</p>
+        ${pass ? '' : '<button class="btn sec runner-retry" data-retry>↻ ጥያቄዎቹን እንደገና · Retry quiz</button>'}
+      </article>`;
+      if (pass) {
+        next.textContent = idx < total - 1 ? 'ቀጣዩ ትምህርት · Next lesson' : '✓ ኮርሱን ጨርስ · Finish course';
+        if (!resultRecorded) {
+          const key = lessonKey(instrument, level, lesson.id);
+          app.data.completed[key] = true;
+          app.data.scores[key] = finalScore;
+          app.persist();
+          offerInstall(view, app);
+          resultRecorded = true;
+        }
+      } else {
+        next.hidden = true;
+        screen.querySelector('[data-retry]').addEventListener('click', () => {
+          answers.fill(null);
+          at = firstQuizStep;
+          draw();
+        });
+      }
+    }
+
+    view.querySelector('.runner-progress').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  back.addEventListener('click', () => { if (at > 0) { at -= 1; draw(); } });
+  next.addEventListener('click', () => {
+    const step = steps[at];
+    if (step.type === 'quiz' && answers[step.index] === null) return;
+    if (step.type === 'result') {
+      if (score() < 70) return;
+      if (idx < total - 1) app.gotoLesson(idx + 1);
+      else if (levelProgress(app.data, instrument, level, lessons) === 1) app.openView('certificate');
+      else app.openInstrument(instrument);
+      return;
+    }
+    at += 1;
+    draw();
+  });
+  view.querySelector('[data-act="levels"]').addEventListener('click', () => app.openInstrument(instrument));
+
+  draw();
+  active = { stop() { instrumentView.clearLit(); instrumentView.destroy?.(); } };
+  return view;
+}
+
+function chunkBilingualBody(body = {}) {
+  const am = splitSentences(body.am || '');
+  const en = splitSentences(body.en || '');
+  const chunkCount = Math.max(1, Math.ceil(Math.max(am.length, en.length) / 2));
+  const group = (sentences, index) => {
+    const start = Math.round(index * sentences.length / chunkCount);
+    const end = Math.round((index + 1) * sentences.length / chunkCount);
+    return sentences.slice(start, end).join(' ');
+  };
+  return Array.from({ length: chunkCount }, (_, index) => ({ am: group(am, index), en: group(en, index) }))
+    .filter((chunk) => chunk.am || chunk.en);
+}
+
+function splitSentences(text) {
+  return String(text).split(/\n+/u).flatMap((paragraph) =>
+    paragraph.match(/[^።፧.!?]+[።፧.!?]+|[^።፧.!?]+$/gu) || []
+  ).map((sentence) => sentence.trim()).filter(Boolean);
 }
 
 function mountQuiz(view, app, lesson, lessons, kb) {
