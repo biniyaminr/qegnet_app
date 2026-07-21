@@ -1,0 +1,234 @@
+{
+  "instrument": "acoustic",
+  "level": "beginner",
+  "lessons": [
+    {
+      "id": "ac-b-1",
+      "widget": "freeplay",
+      "scale": "tizita",
+      "micro": false,
+      "title": { "am": "ጊታርን መያዝና ንጹሕ ድምፅ ማውጣት", "en": "Holding the Guitar and Making a Clean Note" },
+      "goal": { "am": "ጊታሩን ዘና ብሎ ይዞ፣ ፒክን ወይም አውራ ጣትን በቀላሉ በመጠቀም፣ ከፍሬቱ ጀርባ በመጫን ንጹሕ ድምፅ ማውጣት።", "en": "Hold the guitar without tension, use a pick or thumb lightly, and fret just behind the fret wire for a clean note." },
+      "body": {
+        "am": "የጊታሩን አካል በጭንዎ ላይ ያሳርፉ፤ አንገቱ ትንሽ ወደ ላይ ይመልከት። ትከሻዎንና የእጅ አንጓዎን አያጥብቁ። ፒክ ካለዎት በአውራና በጠቋሚ ጣት ቀለል አድርገው ይያዙ፤ ከሌለ በአውራ ጣት ይጀምሩ። ክሩን ሲጫኑ የጣት ጫፍን በፍሬቱ ብረት ላይ ሳይሆን ከኋላው በቅርብ ያኑሩ። ጥርት ብሎ እስኪሰማ ድረስ ቦታውን ያስተካክሉ።",
+        "en": "Rest the guitar body on your thigh and angle the neck slightly upward. Keep shoulders and wrists relaxed. If you have a pick, hold it lightly between thumb and index finger; otherwise begin with the thumb. When fretting, place the fingertip close behind the fret wire, not on top of it. Adjust the position until the note rings clearly."
+      },
+      "exercises": [
+        { "type": "technique", "instruction": { "am": "እያንዳንዱን ክፍት ክር ከዝቅተኛው ጀምረው አንድ ጊዜ በቀስታ ይምቱ።", "en": "Starting with the lowest string, pluck each open string once and gently." } },
+        { "type": "technique", "instruction": { "am": "በዝቅተኛ E ክር 3ኛ ፍሬት ከብረቱ ጀርባ ይጫኑ፤ ድምፁ ንጹሕ እስኪሆን ያዳምጡ።", "en": "Fret the low E string at fret 3, close behind the wire, and listen for a clean note." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "ንጹሕ ኖታ ለማውጣት ጣቱ የት መቀመጥ አለበት?", "en": "Where should the fingertip sit for a clean note?" }, "choices": ["ከፍሬት ብረቱ ጀርባ በቅርብ · Close behind the fret wire", "በብረቱ ላይ · On top of the wire", "በሁለት ፍሬቶች መሃል · Halfway between frets", "ከክሩ ርቆ · Away from the string"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "ንጹሑን የጊታር ኖታ ያዳምጡ። ድምፁ ጥርት ብሎ ይቆያል?", "en": "Listen to the clean guitar note. Does it ring clearly?" }, "audio": { "midis": [43] }, "choices": ["አዎን፣ ጥርት ብሎ ይቆያል · Yes, it rings clearly", "አይ፣ ድምፅ የለውም · No, it is silent", "ሁለት ኖታዎች ናቸው · It is two notes", "ምት ብቻ ነው · It is only a beat"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ፒክን እንዴት መያዝ ይገባል?", "en": "How should the pick be held?" }, "choices": ["በአውራና በጠቋሚ ጣት ቀለል አድርጎ · Lightly between thumb and index", "በጣም አጥብቆ · As tightly as possible", "በትንሽ ጣት ብቻ · With the little finger only", "በመዳፍ ውስጥ ደብቆ · Hidden in the palm"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "ac-b-2",
+      "widget": "tuner",
+      "scale": "tizita",
+      "micro": false,
+      "referenceTones": [
+        { "label": "6 · ዝቅተኛ E · Low E", "midi": 40 },
+        { "label": "5 · A", "midi": 45 },
+        { "label": "4 · D", "midi": 50 },
+        { "label": "3 · G", "midi": 55 },
+        { "label": "2 · B", "midi": 59 },
+        { "label": "1 · ከፍተኛ e · High e", "midi": 64 }
+      ],
+      "title": { "am": "ስድስቱን ክሮች ማወቅና ጊታርን ማቃኘት", "en": "The Six Strings and Tuning by Ear" },
+      "goal": { "am": "E–A–D–G–B–e የክፍት ክሮችን ስም ለይቶ የመተግበሪያውን ማጣቀሻ ድምፆች በመስማት እያንዳንዱን ክር ማቃኘት።", "en": "Name the open strings E–A–D–G–B–e and tune each one by matching it to the app’s reference tone." },
+      "body": {
+        "am": "ክሮቹ ከወፍራሙና ዝቅተኛው ወደ ቀጭኑና ከፍተኛው E–A–D–G–B–e ተብለው ይጠራሉ። ከታች ያለውን የአንድ ክር ማጣቀሻ ድምፅ ያጫውቱ፤ ከዚያ ተመሳሳዩን ክፍት ክር በጊታርዎ ይምቱ። የጊታሩ ድምፅ ዝቅ ካለ የማቃኛውን ቁልፍ በጥቂቱ አጥብቀው ድምፁን ከፍ ያድርጉ፤ ከፍ ካለ በጥቂቱ ፍተው ዝቅ ያድርጉ። ሁለቱ ድምፆች እንደ አንድ እስኪሰሙ ድረስ ደጋግመው ያወዳድሩ። ቁልፉን ሁልጊዜ በትንሽ መጠን ያዙሩ።",
+        "en": "From the thickest, lowest string to the thinnest, highest string, the names are E–A–D–G–B–e. Play one reference button below, then pluck the matching open string on your guitar. If your string sounds lower, tighten its tuning key slightly to raise the pitch; if it sounds higher, loosen it slightly. Compare repeatedly until the two pitches seem to merge. Always turn a tuning key in very small amounts."
+      },
+      "exercises": [
+        { "type": "tuning", "instruction": { "am": "ዝቅተኛ Eን ማጣቀሻውንና የጊታርዎን ክር በተራ ያጫውቱ፤ አንዱ ከሌላው ከፍ ወይም ዝቅ መሆኑን ይወስኑ።", "en": "Alternate the low-E reference and your open string; decide whether yours is higher or lower." } },
+        { "type": "tuning", "instruction": { "am": "ስድስቱን ክሮች ከE እስከ e በተራ ያቃኙ፤ ከዚያ ሁሉንም እንደገና ያረጋግጡ።", "en": "Tune all six strings from low E to high e, then check the full set again." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "የጊታሩ ክፍት ክሮች ከዝቅተኛ ወደ ከፍተኛ በምን ቅደም ተከተል ናቸው?", "en": "What is the low-to-high order of the open strings?" }, "choices": ["E–A–D–G–B–e", "E–B–G–D–A–e", "A–D–E–G–B–e", "E–A–G–D–B–e"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "ሁለቱን ድምፆች ያዳምጡ። ሁለተኛው ከመጀመሪያው ከፍ ይላል?", "en": "Listen to the two tones. Is the second higher than the first?" }, "audio": { "midis": [40, 45] }, "choices": ["አዎን · Yes", "አይ፣ ዝቅ ይላል · No, it is lower", "እኩል ናቸው · They are identical", "ምት ብቻ ነው · It is only rhythm"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ክሩ ከማጣቀሻው ድምፅ ዝቅ ብሎ ከተሰማ ምን ያደርጋሉ?", "en": "What should you do if the string sounds lower than the reference?" }, "choices": ["ቁልፉን በጥቂቱ አጥብቄ ድምፁን ከፍ አደርጋለሁ · Tighten slightly to raise it", "ቁልፉን በፍጥነት እፈታለሁ · Loosen it quickly", "ክሩን እቆርጣለሁ · Cut the string", "ፍሬት እጫናለሁ · Press a fret"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ሁለቱ የE ክሮች እንዴት ይለያያሉ?", "en": "How do the two E strings differ?" }, "choices": ["አንዱ ዝቅተኛና ወፍራም፣ ሌላው ከፍተኛና ቀጭን ነው · One is low and thick; the other high and thin", "ምንም አይለያዩም · They do not differ", "አንዱ C ነው · One is C", "ሁለቱም A ናቸው · Both are A"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "ac-b-3",
+      "widget": "melody",
+      "scale": "tizita",
+      "micro": true,
+      "melody": [0, 1, 2, 3, 4, 3, 1, 0],
+      "title": { "am": "የትዝታ ኖታዎችና ተለዋጭ ፒኪንግ", "en": "Tizita Notes and Alternate Picking" },
+      "goal": { "am": "C–D–E–G–Aን በክፍት ቦታ ላይ ማግኘትና ፒኩን ወደ ታችና ወደ ላይ እያፈራረቁ መጫወት።", "en": "Find C–D–E–G–A in open position and play them with alternating down–up pick strokes." },
+      "body": {
+        "am": "በC ላይ ትዝታ C–D–E–G–A ነው። በክፍት ቦታ Cን በA ክር 3ኛ ፍሬት፣ Dን በክፍት D፣ Eን በD ክር 2ኛ ፍሬት፣ Gን በክፍት G፣ Aን በG ክር 2ኛ ፍሬት ያገኛሉ። መጀመሪያውን ኖታ ወደ ታች፣ ሁለተኛውን ወደ ላይ ይምቱ፤ ይህን ቅደም ተከተል ሳይሰብሩ ይቀጥሉ።",
+        "en": "C Tizita is C–D–E–G–A. In open position, find C at A-string fret 3, open D, E at D-string fret 2, open G, and A at G-string fret 2. Pick the first note down and the second up, continuing without breaking the alternating motion."
+      },
+      "exercises": [
+        { "type": "scale", "instruction": { "am": "C–D–E–G–Aን ወደ ላይና ወደ ታች በ60 BPM ይጫወቱ።", "en": "Play C–D–E–G–A upward and downward at 60 BPM." } },
+        { "type": "alternate-picking", "instruction": { "am": "ኦሪጅናሉን C–D–E–G–A–G–D–C ሐረግ በወደታች–ወደላይ ፒኪንግ ይድገሙ።", "en": "Repeat the original C–D–E–G–A–G–D–C phrase with down–up picking." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "የC ትዝታ ኖታዎች የትኞቹ ናቸው?", "en": "Which notes form C Tizita?" }, "choices": ["C D E G A", "C E F G B", "C Db F G Ab", "C Db F Gb A"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "Cን በክፍት ቦታ በየትኛው ክርና ፍሬት እናገኛለን?", "en": "Where is C in this open-position shape?" }, "choices": ["A ክር፣ 3ኛ ፍሬት · A string, fret 3", "D ክር፣ 2ኛ ፍሬት · D string, fret 2", "G ክር፣ 2ኛ ፍሬት · G string, fret 2", "ዝቅተኛ E ክር፣ 1ኛ ፍሬት · Low E, fret 1"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "የትዝታ ሐረጉን ያዳምጡ። የመጨረሻው ኖታ ወደ C ይመለሳል?", "en": "Listen to the Tizita phrase. Does it return to C?" }, "audio": { "midis": [48, 50, 52, 55, 57, 55, 50, 48], "gap": 0.35 }, "choices": ["አዎን · Yes", "አይ፣ በA ያበቃል · No, it ends on A", "አይ፣ በG ያበቃል · No, it ends on G", "አንድ ኖታ ብቻ ነው · It is only one note"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "ac-b-4",
+      "widget": "melody",
+      "scale": "tizita",
+      "micro": false,
+      "melody": [0, 0, 3, 0, 3, 0, 3, 0],
+      "title": { "am": "የ6/8 ምትና የመጀመሪያ ስትረም", "en": "6/8 and the First Strum" },
+      "goal": { "am": "6/8ን በሁለት ታላላቅ ምቶች በመሰማት በ1ኛና 4ኛ ቁጥሮች ላይ ዘና ያለ ወደ ታች ስትረም መምታት።", "en": "Feel 6/8 as two large beats and make relaxed down-strums on counts 1 and 4." },
+      "body": {
+        "am": "“አንድ–ሁለት–ሦስት፣ አራት–አምስት–ስድስት” ብለው ይቁጠሩ። እጅዎ እንደ ሰዓት መወዛወዣ ያለማቋረጥ ወደ ታችና ወደ ላይ ይንቀሳቀስ። አሁን ክሮቹን በ1 እና 4 ላይ ወደ ታች ብቻ ይምቱ፤ በሌሎቹ ቁጥሮች እጅዎ በአየር ይቀጥል። መጀመሪያ ክሮቹን በግራ እጅ ቀለል አድርገው ይንኩና ድምፅ ሳያወጡ ምቱን ብቻ ይለማመዱ።",
+        "en": "Count “one–two–three, four–five–six.” Let the strumming hand swing continuously down and up like a pendulum. Touch the strings only with down-strokes on 1 and 4; on the other counts, keep moving through the air. First rest the fretting hand lightly across the strings so no pitch rings, and practice rhythm alone."
+      },
+      "exercises": [
+        { "type": "rhythm-tap", "instruction": { "am": "ስድስቱን ቁጥሮች ሲናገሩ በ1ና 4 ላይ ጭንዎን ይምቱ።", "en": "Count all six subdivisions and tap your thigh on 1 and 4." } },
+        { "type": "strumming", "pattern": ["down", null, null, "down", null, null], "instruction": { "am": "ክሮቹን ዝም አድርገው በ1ና 4 ላይ ወደ ታች ይምቱ፤ እጅዎን አያቁሙ።", "en": "Mute the strings and strum down on 1 and 4 without stopping the hand’s motion." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "በመሠረታዊው የ6/8 ስትረም ክሮቹን የምንመታው በየትኞቹ ቁጥሮች ነው?", "en": "On which counts do we strike the strings in the basic 6/8 strum?" }, "choices": ["1 እና 4 · 1 and 4", "2 እና 5 · 2 and 5", "1 እና 3 · 1 and 3", "ስድስቱም · All six"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "የ6/8 ቡድኖቹን ያዳምጡ። ስንት ታላላቅ ምቶች ይሰማሉ?", "en": "Listen to the 6/8 groups. How many large beats do you feel?" }, "audio": { "midis": [48, 48, 48, 55, 55, 55], "gap": 0.28 }, "choices": ["ሁለት · Two", "ሦስት · Three", "አራት · Four", "ስድስት እኩል · Six equal beats"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "በ2፣ 3፣ 5ና 6 ላይ ቀኝ እጅ ምን ያደርጋል?", "en": "What does the strumming hand do on counts 2, 3, 5, and 6?" }, "choices": ["በአየር መወዛወዙን ይቀጥላል · It keeps swinging through the air", "ሙሉ በሙሉ ይቆማል · It stops completely", "ፒኩን ይጥላል · It drops the pick", "ፍሬት ይጫናል · It presses a fret"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "ac-b-5",
+      "widget": "melody",
+      "scale": "tizita",
+      "micro": true,
+      "melody": [0, 1, 3, 0, 2, 4, 3, 0],
+      "title": { "am": "የትዝታ ባስ–ስትረም", "en": "A Tizita Bass–Strum Pattern" },
+      "goal": { "am": "Cን እንደ ዝቅተኛ ባስ ኖታ በ1ኛው ምት፣ ክፍት Dና G ክሮችን እንደ የቅኝት ቡድን በ4ኛው ምት መጫወት።", "en": "Play low C as a bass note on count 1 and the open D–G string pair as a Tizita group on count 4." },
+      "body": {
+        "am": "እዚህ ኮርድ አንጠቀምም፤ ከትዝታ ውስጥ ያሉ ኖታዎችን ብቻ በትንሽ ቡድን እንመታለን። Cን በA ክር 3ኛ ፍሬት በ1ኛው ምት ለብቻው ይጫወቱ። በ4ኛው ምት ክፍት Dና G ክሮችን ብቻ አንድ ላይ ወደ ታች ይምቱ። ፒኩ ከG ክር በኋላ እንዲቆም እንቅስቃሴውን አጭር ያድርጉ።",
+        "en": "No chord is used here. We strike only a small group of notes that all belong to Tizita. On count 1, play C alone at A-string fret 3. On count 4, make one short down-strum across only the open D and G strings. Keep the stroke compact so the pick stops after the G string."
+      },
+      "exercises": [
+        { "type": "string-group", "instruction": { "am": "ክፍት Dና Gን ብቻ አሥር ጊዜ በአጭር ወደ ታች ስትረም ይምቱ። ሌሎቹ ክሮች እንዳይሰሙ ያዳምጡ።", "en": "Strum only open D and G ten times with short down-strokes; listen that no other string rings." } },
+        { "type": "bass-strum", "pattern": ["C", null, null, "D+G", null, null], "instruction": { "am": "Cን በ1፣ D–G ቡድንን በ4 ይጫወቱ፤ በ54 BPM አራት መስመር ይድገሙ።", "en": "Play C on 1 and the D–G pair on 4 for four bars at 54 BPM." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "በዚህ ባስ–ስትረም ውስጥ በ4ኛው ምት የምንመታቸው ክሮች የትኞቹ ናቸው?", "en": "Which strings are struck on count 4 in this pattern?" }, "choices": ["ክፍት Dና G · Open D and G", "ስድስቱም ክሮች · All six strings", "Bና e · B and high e", "Eና A · Low E and A"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "C–D–Gን ያዳምጡ። ሦስቱም ኖታዎች በትዝታ ውስጥ አሉ?", "en": "Listen to C–D–G. Do all three notes belong to Tizita?" }, "audio": { "midis": [48, 50, 55], "gap": 0.45 }, "choices": ["አዎን · Yes", "አይ፣ D አይገባም · No, D does not", "አይ፣ G አይገባም · No, G does not", "አይ፣ C አይገባም · No, C does not"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ይህ ትምህርት ሙሉ ኮርድ ያስተምራል?", "en": "Does this lesson teach a full chord?" }, "choices": ["አይ፣ የትዝታ ኖታዎችን ትንሽ ቡድን ብቻ እንመታለን · No, only a small Tizita note group", "አዎን፣ ስድስት ኖታ ኮርድ · Yes, a six-note chord", "አዎን፣ B ኮርድ · Yes, a B chord", "አዎን፣ F# ኮርድ · Yes, an F# chord"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "ac-b-6",
+      "widget": "melody",
+      "scale": "tizita",
+      "micro": true,
+      "melody": [0, 3, 2, 1, 0, 4, 3, 0],
+      "title": { "am": "ትዝታን በጣት መንቀስ", "en": "Fingerpicking Tizita" },
+      "goal": { "am": "አውራ ጣትን ለባስ ክር፣ ጠቋሚና መሃል ጣትን ለከፍተኛ ክሮች መመደብና P–i–m፣ P–i–m የ6/8 ፓተርን መጫወት።", "en": "Assign thumb to a bass string and index–middle to higher strings, then play a P–i–m, P–i–m pattern in 6/8." },
+      "body": {
+        "am": "በጣት ንቀሳ P ማለት አውራ ጣት፣ i ጠቋሚ፣ m መሃል ጣት ማለት ነው። Cን በA ክር 3ኛ ፍሬት በP ይንኩ፤ ክፍት Gን በi፣ ከፍተኛውን ክፍት e በm ይንኩ። e ኖታው E ነውና በC ትዝታ ውስጥ ይገባል። 1–2–3 ላይ P–i–m፣ 4–5–6 ላይ እንደገና P–i–m ይጫወቱ።",
+        "en": "In fingerpicking, P means thumb, i index, and m middle. Use P for C at A-string fret 3, i for open G, and m for the open high e. That high string sounds E, which belongs to C Tizita. Play P–i–m on counts 1–2–3 and repeat P–i–m on 4–5–6."
+      },
+      "exercises": [
+        { "type": "fingerpicking", "pattern": ["P", "i", "m", "P", "i", "m"], "instruction": { "am": "C–G–Eን ሳይቋረጥ ስድስት ጊዜ P–i–m ብለው ይድገሙ።", "en": "Repeat C–G–E as P–i–m six times without stopping." } },
+        { "type": "fingerpicking", "instruction": { "am": "የመጀመሪያውን P ትንሽ አጉልተው ሌሎቹን ኖታዎች ቀለል አድርገው ይጫወቱ።", "en": "Give the first P a gentle accent and keep the other notes lighter." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "በP–i–m ምልክት P የትኛውን ጣት ያመለክታል?", "en": "Which finger does P represent?" }, "choices": ["አውራ ጣት · Thumb", "ጠቋሚ ጣት · Index", "መሃል ጣት · Middle", "ትንሽ ጣት · Little"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "C–G–Eን ያዳምጡ። የመጀመሪያው ባስ ኖታ የትኛው ነው?", "en": "Listen to C–G–E. Which is the opening bass note?" }, "audio": { "midis": [48, 55, 64], "gap": 0.35 }, "choices": ["C", "G", "E", "A"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "በ6/8 ውስጥ P–i–m ፓተርኑ ስንት ጊዜ ይደገማል?", "en": "How many times does P–i–m repeat in one 6/8 bar?" }, "choices": ["ሁለት ጊዜ · Twice", "አንድ ጊዜ · Once", "ሦስት ጊዜ · Three times", "ስድስት ጊዜ · Six times"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "ac-b-7",
+      "widget": "melody",
+      "scale": "bati",
+      "micro": true,
+      "melody": [0, 1, 2, 3, 1, 4, 3, 0],
+      "title": { "am": "የባቲ ደማቅ ስትረም", "en": "Bati’s Bright Strum" },
+      "goal": { "am": "C–E–F–G–Bን ለይቶ ዝቅተኛ Cን ከክፍት G–B–e ቡድን ጋር በወደ ታች–ወደ ታች–ወደ ላይ የ6/8 ፓተርን ማጣመር።", "en": "Identify C–E–F–G–B and combine low C with the open G–B–e group in a down–down–up 6/8 pattern." },
+      "body": {
+        "am": "C ባቲ C–E–F–G–B ነው። ክፍት G፣ Bና ከፍተኛ e(E) ሦስቱም በባቲ ውስጥ አሉ። Cን በ1 ላይ ወደ ታች ይምቱ፤ G–B–eን በ4 ላይ ወደ ታች፣ በ6 ላይ ወደ ላይ ይምቱ። በ6 ላይ ያለው ወደ ላይ ስትረም ቀለል ይበልና ወደሚቀጥለው C ይምራ።",
+        "en": "C Bati is C–E–F–G–B. The open G, B, and high e (E) strings all belong to Bati. Play C with a down-stroke on 1, strum G–B–e downward on 4, and upward on 6. Keep the up-strum on 6 light so it leads into the next C."
+      },
+      "exercises": [
+        { "type": "string-group", "instruction": { "am": "G–B–eን ብቻ ወደ ታችና ወደ ላይ በተራ ይምቱ።", "en": "Strum only G–B–e, alternating down and up." } },
+        { "type": "strumming", "pattern": ["C down", null, null, "G-B-e down", null, "G-B-e up"], "instruction": { "am": "C በ1፣ G–B–e ወደ ታች በ4፣ ወደ ላይ በ6 ያለውን ፓተርን ይድገሙ።", "en": "Repeat C down on 1, G–B–e down on 4, and G–B–e up on 6." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "ክፍት G–B–e ክሮች በC ባቲ ውስጥ ይገባሉ?", "en": "Do the open G–B–e strings belong to C Bati?" }, "choices": ["አዎን፣ G–B–E ናቸው · Yes, they sound G–B–E", "አይ፣ B አይገባም · No, B does not", "አይ፣ E አይገባም · No, E does not", "አይ፣ G አይገባም · No, G does not"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "የባቲን ኖታዎች ያዳምጡ። ከG በኋላ የሚሰማው ከፍተኛ ኖታ ምንድን ነው?", "en": "Listen to the Bati notes. Which high note follows G?" }, "audio": { "midis": [48, 52, 53, 55, 59] }, "choices": ["B", "A", "Ab", "D"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ቀላሉ ወደ ላይ ስትረም በየትኛው ቁጥር ላይ ነው?", "en": "On which count does the light up-strum fall?" }, "choices": ["6", "1", "3", "4"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "ac-b-8",
+      "widget": "melody",
+      "scale": "ambassel",
+      "micro": true,
+      "melody": [0, 1, 2, 3, 4, 2, 1, 0],
+      "title": { "am": "የአምባሰል የጣት ፓተርን", "en": "An Ambassel Fingerpicking Pattern" },
+      "goal": { "am": "C–Db–F–G–Abን ለይቶ P–i–m–i፣ P–i ፓተርንን በዝግታና በክፍተት መጫወት።", "en": "Identify C–Db–F–G–Ab and play a slow, spacious P–i–m–i, P–i pattern." },
+      "body": {
+        "am": "C አምባሰል C–Db–F–G–Ab ነው። Cን በA ክር 3ኛ ፍሬት በP፣ Fን በD ክር 3ኛ ፍሬት በi፣ ክፍት Gን በm ይንኩ። 1–2–3–4 ላይ P–i–m–i፣ 5–6 ላይ P–i ይጫወቱ። ሁለተኛው P Db ሊሆን ይችላል፤ በA ክር 4ኛ ፍሬት ያገኙታል። ፓተርኑን በቀስታ ይተንፍሱበት።",
+        "en": "C Ambassel is C–Db–F–G–Ab. Pick C at A-string fret 3 with P, F at D-string fret 3 with i, and open G with m. Play P–i–m–i on counts 1–2–3–4, then P–i on 5–6. The second P can play Db at A-string fret 4. Keep the pattern slow and breathing."
+      },
+      "exercises": [
+        { "type": "fingerpicking", "pattern": ["P", "i", "m", "i", "P", "i"], "instruction": { "am": "መጀመሪያ በC–F–G–F፣ C–F ፓተርን ጣቶቹን ብቻ ያለምዱ።", "en": "First train the fingers with C–F–G–F, C–F." } },
+        { "type": "fingerpicking", "instruction": { "am": "ሁለተኛውን P ከC ወደ Db ቀይረው C–F–G–F፣ Db–F ይጫወቱ።", "en": "Change the second P from C to Db and play C–F–G–F, Db–F." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "Dbን በA ክር ላይ የት እናገኛለን?", "en": "Where is Db on the A string?" }, "choices": ["4ኛ ፍሬት · Fret 4", "2ኛ ፍሬት · Fret 2", "3ኛ ፍሬት · Fret 3", "ክፍት ክር · Open string"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "C–Db–Cን ያዳምጡ። Db ወደ C ሲመለስ የመፍታት ስሜት ይሰማል?", "en": "Listen to C–Db–C. Do you hear Db resolve to C?" }, "audio": { "midis": [48, 49, 48], "gap": 0.55 }, "choices": ["አዎን · Yes", "አይ፣ ወደ G ይፈታል · No, it resolves to G", "ኖታው አይለወጥም · The note does not change", "ኦክታቭ ይዘላል · It jumps an octave"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "P–i–m–i፣ P–i ፓተርኑ በአንድ መስመር ስንት ንቀሳዎች አሉት?", "en": "How many plucks are in one P–i–m–i, P–i bar?" }, "choices": ["ስድስት · Six", "አራት · Four", "አምስት · Five", "ስምንት · Eight"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "ac-b-9",
+      "widget": "melody",
+      "scale": "anchihoye",
+      "micro": true,
+      "melody": [0, 2, 3, 4, 2, 1, 3, 0],
+      "title": { "am": "የአንቺሆዬ ጠንካራና የተቆረጠ ምት", "en": "Anchihoye’s Strong and Muted Rhythm" },
+      "goal": { "am": "C–Db–F–Gb–Aን ለይቶ 1ኛውን ምት ማጉላትና በ3ኛና 6ኛ ምቶች ላይ ድምፅ የሌለው የተቆረጠ ስትረም መጫወት።", "en": "Identify C–Db–F–Gb–A, accent count 1, and add pitchless muted strums on counts 3 and 6." },
+      "body": {
+        "am": "C አንቺሆዬ C–Db–F–Gb–A ነው። የተቆረጠ ስትረም ለመሥራት የግራ እጅ ጣቶችን በክሮቹ ላይ ቀለል አድርገው ያሳርፉ፤ አይጫኑ። ክሮቹን ሲመቱ “ችክ” የሚል ምት ይሰማል እንጂ ኖታ አይጠራም። Cን በ1 ጠንክረው ይጫወቱ፤ በ3ና 6 ላይ የተቆረጠ ስትረም ይጨምሩ።",
+        "en": "C Anchihoye is C–Db–F–Gb–A. To make a muted strum, rest the fretting-hand fingers lightly across the strings without pressing. The stroke should produce a rhythmic “chuck,” not a ringing pitch. Play C strongly on 1 and add muted strums on counts 3 and 6."
+      },
+      "exercises": [
+        { "type": "muted-strum", "instruction": { "am": "ክሮቹን በግራ እጅ ቀለል አድርገው ነክተው ስምንት የተቆረጡ ስትረሞችን ይምቱ። ኖታ እንዳይጠራ ያዳምጡ።", "en": "Rest the left hand lightly on the strings and make eight muted strums; check that no pitch rings." } },
+        { "type": "strumming", "pattern": ["C", null, "mute", "F", null, "mute"], "instruction": { "am": "C በ1፣ የተቆረጠ ስትረም በ3፣ F በ4፣ የተቆረጠ ስትረም በ6 ይጫወቱ።", "en": "Play C on 1, a muted strum on 3, F on 4, and a muted strum on 6." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "የተቆረጠ ስትረም ሲመታ ምን መሰማት አለበት?", "en": "What should a muted strum produce?" }, "choices": ["አጭር የምት ድምፅ፣ ጥርት ያለ ኖታ ሳይኖር · A short rhythmic sound without a clear pitch", "ረዥም የሚቆይ ኮርድ · A long ringing chord", "ከፍተኛ B ኖታ · A high B", "ምንም እንቅስቃሴ የለም · No movement"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "የአንቺሆዬን C–F–Gb–A ያዳምጡ። Fና Gb ተከታታይ ፍሬቶች ናቸው?", "en": "Listen to C–F–Gb–A. Are F and Gb on adjacent frets?" }, "audio": { "midis": [48, 53, 54, 57], "gap": 0.4 }, "choices": ["አዎን · Yes", "አይ፣ ሁለት ፍሬት ይራራቃሉ · No, two frets apart", "አንድ ኦክታቭ ይራራቃሉ · An octave apart", "እኩል ኖታ ናቸው · They are the same note"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "የተቆረጡት ስትረሞች በየትኞቹ ቁጥሮች ላይ ናቸው?", "en": "On which counts do the muted strums fall?" }, "choices": ["3 እና 6 · 3 and 6", "1 እና 4 · 1 and 4", "2 እና 5 · 2 and 5", "1 እና 6 · 1 and 6"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "ac-b-10",
+      "widget": "melody",
+      "scale": "tizita",
+      "micro": true,
+      "melody": [0, 1, 3, 2, 4, 3, 1, 0],
+      "title": { "am": "አራቱ ቅኝቶች—የአኮስቲክ ትርዒት", "en": "Four-Kiñit Acoustic Performance" },
+      "goal": { "am": "ለእያንዳንዱ ቅኝት የተለየ የአኮስቲክ ዘዴ በመጠቀም አራት ኦሪጅናል የ6/8 ሐረጎችን ማቅረብ።", "en": "Perform four original 6/8 phrases, using a distinct acoustic technique for each kiñit." },
+      "body": {
+        "am": "ትርዒቱ አራት ክፍሎች አሉት፦ ትዝታ—C በ1፣ D–G ቡድን በ4፤ ባቲ—C በ1፣ G–B–e ወደ ታች በ4ና ወደ ላይ በ6፤ አምባሰል—P–i–m–i፣ P–i የጣት ንቀሳ፤ አንቺሆዬ—C በ1፣ F በ4፣ የተቆረጠ ስትረም በ3ና 6። እያንዳንዱን ክፍል ሁለት ጊዜ ይድገሙና ሳያቋርጡ ወደሚቀጥለው ይሂዱ።",
+        "en": "The performance has four sections: Tizita—C on 1 and the D–G pair on 4; Bati—C on 1, G–B–e down on 4 and up on 6; Ambassel—a P–i–m–i, P–i fingerpicked bar; Anchihoye—C on 1, F on 4, with muted strums on 3 and 6. Repeat each section twice and move to the next without stopping."
+      },
+      "exercises": [
+        { "type": "performance", "instruction": { "am": "እያንዳንዱን ክፍል ለብቻው በ54 BPM አራት ጊዜ ይጫወቱ።", "en": "Practice each section alone four times at 54 BPM." } },
+        { "type": "performance", "instruction": { "am": "አራቱን ክፍሎች አገናኝተው ይቅዱ፤ ምቱና የቅኝቱ ቀለም ግልጽ መሆኑን ያዳምጡ።", "en": "Record the four connected sections and listen for steady time and a clear change of kiñit color." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "P–i–m–i፣ P–i የጣት ፓተርን በትርዒቱ የትኛውን ቅኝት ያሳያል?", "en": "Which kiñit uses the P–i–m–i, P–i pattern in the performance?" }, "choices": ["አምባሰል · Ambassel", "ትዝታ · Tizita", "ባቲ · Bati", "አንቺሆዬ · Anchihoye"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "C–E–F–G–Bን ያዳምጡ። የትኛው ቅኝት ነው?", "en": "Listen to C–E–F–G–B. Which kiñit is it?" }, "audio": { "midis": [48, 52, 53, 55, 59], "gap": 0.35 }, "choices": ["ባቲ · Bati", "ትዝታ · Tizita", "አምባሰል · Ambassel", "አንቺሆዬ · Anchihoye"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "C–Db–F–Gb–Aን ያዳምጡ። የትኛው ቅኝት ነው?", "en": "Listen to C–Db–F–Gb–A. Which kiñit is it?" }, "audio": { "midis": [48, 49, 53, 54, 57], "gap": 0.35 }, "choices": ["አንቺሆዬ · Anchihoye", "አምባሰል · Ambassel", "ባቲ · Bati", "ትዝታ · Tizita"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ትርዒቱን ሳያቋርጡ ለመጫወት የሚረዳው ምንድን ነው?", "en": "What helps connect the full performance without stopping?" }, "choices": ["እያንዳንዱን ክፍል በቀስታ ማዘጋጀትና 6/8ን መቁጠር · Prepare each section slowly and keep counting 6/8", "በተቻለ ፍጥነት መጫወት · Play as fast as possible", "በየክፍሉ ምቱን መቀየር · Change tempo each section", "ቀኝ እጅን ማጥበቅ · Tense the right hand"], "answer": 0 }
+      ]
+    }
+  ]
+}

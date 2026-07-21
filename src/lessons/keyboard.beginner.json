@@ -1,0 +1,207 @@
+{
+  "instrument": "keyboard",
+  "level": "beginner",
+  "lessons": [
+    {
+      "id": "kb-b-1",
+      "widget": "freeplay",
+      "scale": "tizita",
+      "micro": false,
+      "title": { "am": "ኖታ ምንድን ነው?", "en": "What is a note?" },
+      "body": {
+        "am": "ኖታ ማለት አንድ የሙዚቃ ድምፅ ነው — የራሱ ቅላፄ (ከፍታ ወይም ዝቅታ) ያለው። ማንኛውንም ኪ ተጫኑ፤ አንድ ኖታ ትሰማላችሁ። የአማርኛ ሙዚቃ ሁሉ ከጥቂት ኖታዎች ይሠራል።",
+        "en": "A note is one musical sound with its own pitch — how high or low it is. Press any key below to hear a single note. Everything in Ethiopian music is built from just a handful of these."
+      },
+      "exercises": [],
+      "quiz": [
+        {
+          "type": "ear-training",
+          "prompt": { "am": "ድምፁን ያዳምጡ። አንድ ኖታ ነው ወይስ ሁለት?", "en": "Listen. Do you hear one note or two?" },
+          "audio": { "midis": [60] },
+          "choices": ["አንድ ኖታ · One note", "ሁለት ኖታዎች · Two notes", "ምት ብቻ · A beat only", "ዝምታ · Silence"],
+          "answer": 0
+        },
+        {
+          "type": "ear-training",
+          "prompt": { "am": "ሁለቱን ኖታዎች ያዳምጡ። ሁለተኛው ድምፅ እንዴት ነው?", "en": "Listen to the two notes. What happens to the second pitch?" },
+          "audio": { "midis": [60, 67] },
+          "choices": ["ከፍ ይላል · It goes higher", "ዝቅ ይላል · It goes lower", "አይለወጥም · It stays the same", "ምቱ ይፈጥናል · The beat speeds up"],
+          "answer": 0
+        },
+        {
+          "type": "note-id",
+          "prompt": { "am": "በኪቦርድ ላይ አንድ ኪ ሲጫኑ ምን ይሰማል?", "en": "What do you hear when you press one keyboard key?" },
+          "choices": ["አንድ ኖታ · One note", "አንድ ቅኝት · A whole kiñit", "አንድ ዘፈን · A song", "ሜትሮኖም · A metronome"],
+          "answer": 0
+        },
+        {
+          "type": "ear-training",
+          "prompt": { "am": "ሁለቱን ኖታዎች ያዳምጡ። ሁለተኛው ድምፅ ከመጀመሪያው ዝቅ ይላል?", "en": "Listen. Is the second note lower than the first?" },
+          "audio": { "midis": [69, 60] },
+          "choices": ["አዎን፣ ዝቅ ይላል · Yes, lower", "አይ፣ ከፍ ይላል · No, higher", "ድምፆቹ እኩል ናቸው · They are the same", "ኖታ አይደሉም · They are not notes"],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "kb-b-2",
+      "widget": "named",
+      "scale": "tizita",
+      "micro": false,
+      "title": { "am": "ሰባቱ የኖታ ስሞች", "en": "The seven note names" },
+      "body": {
+        "am": "ምዕራባዊ ሙዚቃ ሰባት ኖታዎችን በስም ይጠራል፦ C D E F G A B — ከዚያ እንደገና ወደ ላይ ይደግማል። እነዚህ ነጫጭ ኪዎች ናቸው። C ን ፈልጉ፦ ከሁለቱ ጥቁር ኪዎች ግራ በኩል ይገኛል።",
+        "en": "Western music names seven notes: C D E F G A B, then the pattern repeats higher up. These are the white keys. Find C — it sits just to the left of every group of two black keys."
+      },
+      "exercises": [],
+      "quiz": [
+        {
+          "type": "note-id",
+          "prompt": { "am": "ከሁለት ጥቁር ኪዎች ቡድን በስተግራ ያለው ነጭ ኪ ምንድን ነው?", "en": "Which white key sits immediately left of a group of two black keys?" },
+          "choices": ["C", "D", "F", "A"],
+          "answer": 0
+        },
+        {
+          "type": "note-id",
+          "prompt": { "am": "ከE ቀጥሎ ያለው ነጭ ኪ የትኛው ነው?", "en": "Which white key comes immediately after E?" },
+          "choices": ["F", "G", "D", "B"],
+          "answer": 0
+        },
+        {
+          "type": "ear-training",
+          "prompt": { "am": "ይህን ኖታ ያዳምጡ። በመካከለኛው C ላይ ነው። ስሙ ማን ነው?", "en": "Listen to this note at middle C. What is its name?" },
+          "audio": { "midis": [60] },
+          "choices": ["C", "E", "G", "B"],
+          "answer": 0
+        },
+        {
+          "type": "note-id",
+          "prompt": { "am": "ሰባቱ የኖታ ስሞች ከB በኋላ እንዴት ይቀጥላሉ?", "en": "How do the seven note names continue after B?" },
+          "choices": ["ከC እንደገና ይጀምራሉ · They restart at C", "በH ይቀጥላሉ · They continue to H", "በA ያበቃሉ · They end at A", "ወደG ይመለሳሉ · They return to G"],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "kb-b-3",
+      "widget": "scale",
+      "scale": "tizita",
+      "micro": true,
+      "title": { "am": "ቅኝት ምንድን ነው? — ትዝታ", "en": "What is a scale? — Tizita" },
+      "body": {
+        "am": "ቅኝት ማለት አብረው የሚያማምሩ የተመረጡ ኖታዎች ስብስብ ነው፤ ለሙዚቃው ስሜት ይሰጣል። ኢትዮጵያ አራት ዋና ቅኝቶች አሏት። በጣም ወዳጃዊው ትዝታ ነው — ሙቀትና ናፍቆት ያለው። ትዝታ የሚጠቀመው C D E G A ነው። “ቅኝቱን አጫውት” ተጫኑ።",
+        "en": "A scale (kiñit) is a chosen set of notes that sound good together and give the music a mood. Ethiopia has four main kiñit; the friendliest is Tizita — warm and nostalgic. Tizita uses C D E G A. Press “Play the scale” and watch each key light up."
+      },
+      "exercises": [],
+      "quiz": [
+        {
+          "type": "note-id",
+          "prompt": { "am": "በC ላይ ያለው የትዝታ ቅኝት የትኞቹን ኖታዎች ይጠቀማል?", "en": "Which notes make C Tizita?" },
+          "choices": ["C D E G A", "C D F G B", "C Eb F Ab Bb", "C E F# G B"],
+          "answer": 0
+        },
+        {
+          "type": "ear-training",
+          "prompt": { "am": "ቅኝቱን ያዳምጡ። ስንት የተለያዩ ኖታዎች ሰሙ?", "en": "Listen to the kiñit. How many different notes do you hear?" },
+          "audio": { "midis": [60, 62, 64, 67, 69] },
+          "choices": ["አምስት · Five", "አራት · Four", "ስድስት · Six", "ሰባት · Seven"],
+          "answer": 0
+        },
+        {
+          "type": "ear-training",
+          "prompt": { "am": "ያዳምጡ። የሰሙት ኖታ በC ትዝታ ውስጥ አለ?", "en": "Listen. Does this note belong to C Tizita?" },
+          "audio": { "midis": [67] },
+          "choices": ["አዎን፣ G ነው · Yes, it is G", "አይ፣ F ነው · No, it is F", "አይ፣ B ነው · No, it is B", "አይ፣ C♯ ነው · No, it is C♯"],
+          "answer": 0
+        },
+        {
+          "type": "note-id",
+          "prompt": { "am": "ቅኝት ለሙዚቃ ምን ይሰጣል?", "en": "What does a kiñit give music?" },
+          "choices": ["የራሱን የድምፅ ቀለምና ስሜት · Its own color and feeling", "የድምፅ መጠን ብቻ · Only volume", "የመሣሪያ ስም · An instrument name", "የዘፈን ርዝመት · Song length"],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "kb-b-4",
+      "widget": "updown",
+      "scale": "tizita",
+      "micro": false,
+      "title": { "am": "ቅኝቱን ወደ ላይና ወደ ታች መጫወት", "en": "Playing the scale up and down" },
+      "body": {
+        "am": "አሁን አምስቱን ኖታዎች በቅደም ተከተል ወደ ላይ፣ ከዚያም ወደ ታች ተጫወቱ። እያንዳንዱ ኪ ሲበራ ተመልከቱ፤ በእጃችሁ ለመከተል ሞክሩ። ሜትሮኖሙን አብርታችሁ ከምት ጋር ሞክሩ።",
+        "en": "Now play the five notes in order going up, then back down again. Watch each key light in turn and try to match it with your own hand. Turn on the metronome and play in time with the pulse."
+      },
+      "exercises": [],
+      "quiz": [
+        {
+          "type": "ear-training",
+          "prompt": { "am": "የትዝታ ኖታዎችን ያዳምጡ። ዜማው ወዴት እየሄደ ነው?", "en": "Listen to the Tizita notes. Which direction are they moving?" },
+          "audio": { "midis": [60, 62, 64, 67, 69] },
+          "choices": ["ወደ ላይ · Up", "ወደ ታች · Down", "አንድ ቦታ ላይ · Staying on one pitch", "በዘፈቀደ · Randomly"],
+          "answer": 0
+        },
+        {
+          "type": "ear-training",
+          "prompt": { "am": "ይህን ቅደም ተከተል ያዳምጡ። ትዝታን ወደ ታች በትክክል ያሳያል?", "en": "Listen. Is this C Tizita played correctly downward?" },
+          "audio": { "midis": [69, 67, 64, 62, 60] },
+          "choices": ["አዎን · Yes", "አይ፣ ወደ ላይ ነው · No, it goes up", "አይ፣ አንድ ኖታ ነው · No, it is one note", "አይ፣ ምት ብቻ ነው · No, it is only rhythm"],
+          "answer": 0
+        },
+        {
+          "type": "note-id",
+          "prompt": { "am": "C ትዝታን ወደ ላይ ሲጫወቱ ከE ቀጥሎ የሚመጣው ኖታ ምንድን ነው?", "en": "When playing C Tizita upward, which note follows E?" },
+          "choices": ["G", "F", "A", "B"],
+          "answer": 0
+        },
+        {
+          "type": "note-id",
+          "prompt": { "am": "ከሜትሮኖም ጋር ሲለማመዱ ዋናው ግብ ምንድን ነው?", "en": "What is the main goal when practicing with a metronome?" },
+          "choices": ["እያንዳንዱን ኖታ ከምቱ ጋር ማስማማት · Place each note with the pulse", "በተቻለ ፍጥነት መጫወት · Play as fast as possible", "አንድ ኖታ መዝለል · Skip one note", "ሜትሮኖሙን አለመስማት · Ignore the metronome"],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "kb-b-5",
+      "widget": "melody",
+      "scale": "tizita",
+      "micro": false,
+      "melody": [2, 3, 4, 3, 2, 0, 2, 4],
+      "title": { "am": "የመጀመሪያ ዜማችሁ — ባለ3-ኖታ", "en": "Your first melody — three notes" },
+      "body": {
+        "am": "ዜማ ማለት ኖታዎችን አንዱን ተከትሎ ሌላውን መጫወት ነው። ይህ አጭር የትዝታ ዜማ ነው (የራሳችን ኦሪጅናል)። መጀመሪያ አጫውቱት፤ ከዚያ ኪዎቹን እናንተው ተጫወቱ። እንኳን ደስ አላችሁ — ተጫዋች ሆናችኋል!",
+        "en": "A melody is notes played one after another. Here is a short, original Tizita phrase. Press play to hear it, then play the keys yourself to match. Congratulations — you are now playing music!"
+      },
+      "exercises": [],
+      "quiz": [
+        {
+          "type": "ear-training",
+          "prompt": { "am": "የትምህርቱን ዜማ ያዳምጡ። የመጨረሻው ኖታ የትኛው ነው?", "en": "Listen to the lesson melody. Which note ends the phrase?" },
+          "audio": { "midis": [64, 67, 69, 67, 64, 60, 64, 69] },
+          "choices": ["A", "C", "E", "G"],
+          "answer": 0
+        },
+        {
+          "type": "ear-training",
+          "prompt": { "am": "የዜማውን መጀመሪያ ያዳምጡ። ሦስተኛው ኖታ ከሁለተኛው ከፍ ይላል ወይስ ዝቅ?", "en": "Listen to the opening. Is the third note higher or lower than the second?" },
+          "audio": { "midis": [64, 67, 69] },
+          "choices": ["ከፍ ይላል · Higher", "ዝቅ ይላል · Lower", "እኩል ነው · The same", "አይሰማም · It is silent"],
+          "answer": 0
+        },
+        {
+          "type": "note-id",
+          "prompt": { "am": "ይህ ዜማ የሚጠቀመው የትኛውን ቅኝት ነው?", "en": "Which kiñit supplies the notes for this melody?" },
+          "choices": ["ትዝታ · Tizita", "ባቲ · Bati", "አምባሰል · Ambassel", "አንቺሆዬ · Anchihoye"],
+          "answer": 0
+        },
+        {
+          "type": "note-id",
+          "prompt": { "am": "ዜማ እንዴት ይፈጠራል?", "en": "How is a melody formed?" },
+          "choices": ["ኖታዎችን በተወሰነ ቅደም ተከተል በመጫወት · By playing notes in an intentional order", "ሁሉንም ኪዎች በአንድ ጊዜ በመጫወት · By pressing every key together", "ሜትሮኖምን ብቻ በማዳመጥ · By hearing only a metronome", "የድምፅ መጠንን ብቻ በመቀየር · By changing only the volume"],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

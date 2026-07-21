@@ -1,0 +1,226 @@
+{
+  "instrument": "bass",
+  "level": "beginner",
+  "lessons": [
+    {
+      "id": "bass-b-1",
+      "widget": "freeplay",
+      "scale": "tizita",
+      "micro": false,
+      "title": { "am": "ባስን መያዝና ንጹሕ ድምፅ ማውጣት", "en": "Holding the Bass and Making a Clean Note" },
+      "goal": { "am": "ባሱን በምቾት ይዞ፣ በጠቋሚና በመሃል ጣት እያፈራረቁ በመንካት፣ ከፍሬቱ ጀርባ በመጫን ንጹሕ ድምፅ ማውጣት።", "en": "Hold the bass comfortably, alternate index and middle plucking fingers, and fret just behind the fret wire for a clean note." },
+      "body": {
+        "am": "ተቀምጠውም ሆነ ቆመው ሲጫወቱ የባሱ አንገት ትንሽ ወደ ላይ ይመልከት፤ ትከሻዎንና የእጅ አንጓዎን አያጥብቁ። የሚነካውን እጅ አውራ ጣት በፒካፑ ወይም በዝቅተኛው ክር ላይ በቀስታ ያሳርፉ። ክሩን በጠቋሚና በመሃል ጣት በተራ ወደ መዳፍ ይሳቡ፤ አንድ ጣትን ብቻ አይድገሙ። በግራ እጅ ሲጫኑ ጣቱን በፍሬቱ ብረት ላይ ሳይሆን ከኋላው በቅርብ ያኑሩ። ይህ በትንሽ ጉልበት ንጹሕ ድምፅ ያወጣል።",
+        "en": "Whether seated or standing, angle the neck slightly upward and keep your shoulders and wrists relaxed. Rest the plucking-hand thumb lightly on a pickup or a lower string. Pull the string gently toward your palm, alternating index and middle fingers instead of repeating one finger. With the fretting hand, place the fingertip close behind the fret wire—not on top of it. This produces a clean note with less pressure."
+      },
+      "exercises": [
+        { "type": "technique", "instruction": { "am": "ክፍት E ክርን ስምንት ጊዜ በቀስታ ይንኩ፤ ጠቋሚ–መሃል ብለው ያፈራርቁ።", "en": "Pluck the open E string eight times slowly, alternating index–middle." } },
+        { "type": "technique", "instruction": { "am": "በA ክር 3ኛ ፍሬት ላይ ከብረቱ ጀርባ ይጫኑ። ድምፁ እስኪጠራ ድረስ የጣትዎን ቦታ ያስተካክሉ።", "en": "Fret the A string at fret 3, just behind the wire. Adjust the fingertip until the note rings clearly." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "ክርን ለመንካት የትኞቹን ጣቶች ማፈራረቅ ይገባል?", "en": "Which fingers should alternate when plucking?" }, "choices": ["ጠቋሚና መሃል · Index and middle", "አውራና ትንሽ · Thumb and little", "መሃልና ቀለበት · Middle and ring", "ጠቋሚ ብቻ · Index only"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "ንጹሑን የባስ ኖታ ያዳምጡ። ድምፁ የሚቆየው ነው ወይስ ወዲያው የሚቋረጥ?", "en": "Listen to the clean bass note. Does it ring or stop immediately?" }, "audio": { "midis": [36] }, "choices": ["ይጠራና ይቆያል · It rings and sustains", "ወዲያው ይቋረጣል · It stops immediately", "ሁለት ኖታ ነው · It is two notes", "ምት ብቻ ነው · It is only a beat"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "ጣትን በፍሬቱ የት ማኖር ንጹሕ ድምፅ ያስገኛል?", "en": "Where should the fingertip sit for a clean fretted note?" }, "choices": ["ከፍሬት ብረቱ ጀርባ በቅርብ · Close behind the fret wire", "በፍሬቱ መሃል ላይ · Halfway between frets", "በብረቱ ላይ · Directly on the wire", "ከክሩ ርቆ · Away from the string"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "bass-b-2",
+      "widget": "named",
+      "scale": "tizita",
+      "micro": false,
+      "title": { "am": "በEና A ክሮች ላይ ኖታዎችን ማግኘት", "en": "Finding Notes on the E and A Strings" },
+      "goal": { "am": "እያንዳንዱ ፍሬት አንድ ግማሽ ድምፅ እንደሚጨምር ተረድቶ በEና A ክሮች እስከ5ኛ ፍሬት ያሉትን ኖታዎችና Cን ማግኘት።", "en": "Understand that each fret raises the pitch by one semitone, name notes through fret 5 on the E and A strings, and locate C." },
+      "body": {
+        "am": "ባሱ ከዝቅተኛ ወደ ከፍተኛ E–A–D–G ተብሎ ይቃኛል። ወደ ባሱ አካል አንድ ፍሬት ሲሄዱ ድምፁ በአንድ ግማሽ ድምፅ ከፍ ይላል። በE ክር፦ ክፍት E፣ 1ኛ F፣ 3ኛ G፣ 5ኛ A። በA ክር፦ ክፍት A፣ 2ኛ B፣ 3ኛ C፣ 5ኛ D። በE–F እና B–C መካከል አንድ ፍሬት ብቻ ነው፤ በሌሎቹ የተፈጥሮ ኖታዎች መካከል ሁለት ፍሬቶች አሉ። መጀመሪያ Cን በA ክር 3ኛ ፍሬት ያግኙ።",
+        "en": "The bass is tuned E–A–D–G from low to high. Moving one fret toward the body raises the pitch by one semitone. On E: open E, fret 1 F, fret 3 G, fret 5 A. On A: open A, fret 2 B, fret 3 C, fret 5 D. E–F and B–C are only one fret apart; other natural-note pairs are two frets apart. Begin by finding C at fret 3 of the A string."
+      },
+      "exercises": [
+        { "type": "note-identification", "instruction": { "am": "E ክርን 0–1–3–5 ፍሬቶች በመጫወት E–F–G–A ብለው ይናገሩ።", "en": "Play frets 0–1–3–5 on E and say E–F–G–A aloud." } },
+        { "type": "note-identification", "instruction": { "am": "A ክርን 0–2–3–5 ፍሬቶች በመጫወት A–B–C–D ብለው ይናገሩ።", "en": "Play frets 0–2–3–5 on A and say A–B–C–D aloud." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "በA ክር 3ኛ ፍሬት ላይ ያለው ኖታ ምንድን ነው?", "en": "Which note is at fret 3 on the A string?" }, "choices": ["C", "B", "D", "G"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "በE ክር 3ኛ ፍሬት ላይ ያለው ኖታ ምንድን ነው?", "en": "Which note is at fret 3 on the E string?" }, "choices": ["G", "F", "A", "C"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "Eና Fን ያዳምጡ። በፍሬትቦርዱ ላይ ምን ያህል ይራራቃሉ?", "en": "Listen to E and F. How far apart are they on the fretboard?" }, "audio": { "midis": [28, 29] }, "choices": ["አንድ ፍሬት · One fret", "ሁለት ፍሬት · Two frets", "ሦስት ፍሬት · Three frets", "አንድ ክር · One string"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "አንድ ፍሬት ወደ ባሱ አካል ሲሄዱ ድምፁ ምን ይሆናል?", "en": "What happens to pitch when you move one fret toward the body?" }, "choices": ["በግማሽ ድምፅ ከፍ ይላል · It rises one semitone", "በአንድ ኦክታቭ ዝቅ ይላል · It drops an octave", "አይለወጥም · It does not change", "ይጠፋል · It disappears"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "bass-b-3",
+      "widget": "melody",
+      "scale": "tizita",
+      "micro": true,
+      "melody": [0, 3, 0, 3, 0, 3, 1, 0],
+      "title": { "am": "የትዝታ መሠረትና አምስተኛ", "en": "Tizita Root and Fifth" },
+      "goal": { "am": "Cን እንደ መሠረት፣ Gን እንደ አምስተኛ ለይቶ በተረጋጋ ምት መቀያየር።", "en": "Recognize C as the root and G as the fifth, then alternate them with a steady pulse." },
+      "body": {
+        "am": "መሠረታዊ ኖታው ዜማው የሚያርፍበት ቤት ነው። በC ትዝታ C መሠረት ሲሆን G አምስተኛው ነው። Cን በA ክር 3ኛ ፍሬት፣ Gን በE ክር 3ኛ ፍሬት ያገኛሉ። ሁለቱም በአንድ ፍሬት ላይ ስለሆኑ እጅዎን ሳያንቀሳቅሱ ክር ብቻ ይቀይሩ። እኩል ርዝመት ያላቸውን C–G ኖታዎች በ60 BPM ይጫወቱ።",
+        "en": "The root is the home note where the music settles. In C Tizita, C is the root and G is the fifth. Find C at A-string fret 3 and G at E-string fret 3. Because both lie at the same fret, keep the fretting hand still and change strings. Play equal-length C–G notes at 60 BPM."
+      },
+      "exercises": [
+        { "type": "root-fifth", "pattern": ["C", "G", "C", "G"], "instruction": { "am": "እያንዳንዱን ኖታ ለአራት ምቶች ይያዙ፤ ከዚያ ለሁለት፣ በመጨረሻም ለአንድ ምት ይጫወቱ።", "en": "Hold each note for four beats, then two beats, then one beat." } },
+        { "type": "melody-echo", "instruction": { "am": "ኦሪጅናሉን C–G–C–G–C–G–D–C ሐረግ ያዳምጡና ይድገሙ።", "en": "Listen to and echo the original C–G–C–G–C–G–D–C phrase." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "በC ትዝታ ውስጥ መሠረታዊው ኖታ የትኛው ነው?", "en": "Which note is the root of C Tizita?" }, "choices": ["C", "G", "D", "A"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "የC አምስተኛ የትኛው ኖታ ነው?", "en": "Which note is the fifth of C?" }, "choices": ["G", "A", "E", "D"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "C–G–Cን ያዳምጡ። የመጨረሻው C እንደ ቤት የሚሰማው ኖታ ነው?", "en": "Listen to C–G–C. Does the final C sound like home?" }, "audio": { "midis": [36, 43, 36] }, "choices": ["አዎን፣ C መሠረቱ ነው · Yes, C is the root", "አይ፣ G መሠረቱ ነው · No, G is the root", "አይ፣ D መሠረቱ ነው · No, D is the root", "መሠረት የለውም · There is no root"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "bass-b-4",
+      "widget": "melody",
+      "scale": "tizita",
+      "micro": false,
+      "melody": [0, 0, 0, 3, 3, 3, 0, 3],
+      "title": { "am": "የ6/8 ምትን መሰማት", "en": "Feeling the 6/8 Pulse" },
+      "goal": { "am": "ስድስቱን ንዑስ ምቶች በሁለት ታላላቅ ምቶች በመሰማት 1ኛና 4ኛ ምቶችን ማጉላት።", "en": "Feel six subdivisions as two large beats and emphasize subdivisions 1 and 4." },
+      "body": {
+        "am": "6/8ን “አንድ–ሁለት–ሦስት፣ አራት–አምስት–ስድስት” ብለው ይቁጠሩ። 1ኛውና 4ኛው ምቶች ሁለቱ ታላላቅ እርምጃዎች ናቸው፤ 1ኛው በይበልጥ ይጎላል። መጀመሪያ ጭንዎን በ1 እና 4 ላይ ይምቱ። ከዚያ Cን በ1 ላይ፣ Gን በ4 ላይ ይጫወቱ፤ በመካከላቸው ኖታ አያስገቡ።",
+        "en": "Count 6/8 as “one–two–three, four–five–six.” Subdivisions 1 and 4 are the two large steps, with 1 receiving the strongest accent. First tap your thigh on 1 and 4. Then play C on 1 and G on 4, leaving the space between them empty."
+      },
+      "exercises": [
+        { "type": "rhythm-tap", "counts": [1, 4], "instruction": { "am": "ስድስቱን ቁጥሮች ጮክ ብለው ሲናገሩ በ1ና 4 ላይ ያጨብጭቡ።", "en": "Count all six subdivisions aloud and clap on 1 and 4." } },
+        { "type": "root-fifth", "pattern": ["C", null, null, "G", null, null], "instruction": { "am": "በ60 BPM Cን በ1፣ Gን በ4 ይጫወቱ። አራት ጊዜ ይድገሙ።", "en": "At 60 BPM, play C on 1 and G on 4. Repeat four times." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "በ6/8 ውስጥ ሁለቱ ታላላቅ ምቶች የሚጀምሩት በየትኞቹ ቁጥሮች ነው?", "en": "On which counts do the two large beats of 6/8 begin?" }, "choices": ["1 እና 4 · 1 and 4", "1 እና 3 · 1 and 3", "2 እና 5 · 2 and 5", "3 እና 6 · 3 and 6"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "የ6/8 ሐረጉን ያዳምጡ። ስንት ታላላቅ ምቶች ይሰማሉ?", "en": "Listen to the 6/8 bar. How many large beats do you feel?" }, "audio": { "midis": [36, 36, 36, 43, 43, 43], "gap": 0.3 }, "choices": ["ሁለት · Two", "ሦስት · Three", "አራት · Four", "ስድስት እኩል ታላላቅ ምቶች · Six equally large beats"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "በመሠረታዊ የ6/8 ባስ ግሩቭ Cና Gን የት እንጫወታለን?", "en": "Where do C and G fall in the basic 6/8 bass groove?" }, "choices": ["C በ1፣ G በ4 · C on 1, G on 4", "G በ1፣ C በ2 · G on 1, C on 2", "ሁለቱም በ6 · Both on 6", "በ2ና 3 · On 2 and 3"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "bass-b-5",
+      "widget": "melody",
+      "scale": "tizita",
+      "micro": true,
+      "melody": [0, 3, 0, 3, 1, 2, 1, 0],
+      "title": { "am": "የትዝታ 6/8 ግሩቭ", "en": "A Tizita 6/8 Groove" },
+      "goal": { "am": "መሠረቱን በ1ኛው፣ አምስተኛውን በ4ኛው ምት አስቀምጦ በ6ኛው ምት አጭር የመሸጋገሪያ ኖታ መጨመር።", "en": "Place the root on 1 and fifth on 4, then add a short approach note on count 6." },
+      "body": {
+        "am": "አሁን C በ1 እና G በ4 ያለውን ግሩቭ በሁለት መስመሮች ያጽኑ። በሦስተኛው መስመር 6ኛው ምት ላይ Dን ጨምረው ወደ C ይመለሱ። D በA ክር 5ኛ ፍሬት ይገኛል። የመሸጋገሪያው ኖታ አጭር ይሁን፤ የ1ኛውን C ጥንካሬ አይሸፍን።",
+        "en": "Establish C on 1 and G on 4 for two bars. In the third bar, add D on count 6 and return to C. Find D at fret 5 of the A string. Keep the approach note short so it does not obscure the strong C on count 1."
+      },
+      "exercises": [
+        { "type": "root-fifth", "pattern": ["C", null, null, "G", null, null], "instruction": { "am": "የመሠረት–አምስተኛ ግሩቩን አራት መስመር ሳይቋረጥ ይጫወቱ።", "en": "Play four uninterrupted bars of the root–fifth groove." } },
+        { "type": "groove", "pattern": ["C", null, null, "G", null, "D"], "instruction": { "am": "በ6ኛው ምት Dን ጨምረው ወደሚቀጥለው C በጊዜው ይድረሱ።", "en": "Add D on count 6 and arrive at the next C on time." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "በዚህ ግሩቭ ወደ C የሚመራው አጭር የመሸጋገሪያ ኖታ የትኛው ነው?", "en": "Which short approach note leads back to C in this groove?" }, "choices": ["D", "F", "B", "A"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "ግሩቩን ያዳምጡ። ወደ መሠረቱ ከመመለሱ በፊት የሚሰማው ኖታ የትኛው ነው?", "en": "Listen. Which note sounds just before the groove returns to the root?" }, "audio": { "midis": [36, 43, 38, 36], "gap": 0.5 }, "choices": ["D", "G", "C", "E"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "የመሸጋገሪያው D ከጠንካራው C ጋር ሲነጻጸር እንዴት መጫወት አለበት?", "en": "Compared with the strong C, how should the approach D be played?" }, "choices": ["አጭርና ቀለል ብሎ · Short and light", "ረዥምና በጣም ጠንክሮ · Long and very loud", "ከምት ውጭ · Out of time", "ሁለት ኦክታቭ ከፍ · Two octaves higher"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "bass-b-6",
+      "widget": "melody",
+      "scale": "bati",
+      "micro": true,
+      "melody": [0, 3, 1, 2, 3, 4, 3, 0],
+      "title": { "am": "የባቲ ክፍት ቀለም", "en": "Bati’s Open Color" },
+      "goal": { "am": "የC ባቲን C–E–F–G–B ለይቶ በC–G የ6/8 ግሩቭ ዙሪያ አጭር የመልስ ሐረግ መጫወት።", "en": "Identify C–E–F–G–B as C Bati and play a short response around a C–G 6/8 groove." },
+      "body": {
+        "am": "ባቲ በC ላይ C–E–F–G–B ይጠቀማል። መሠረትና አምስተኛው Cና G እንደነበሩ ይቆያሉ፤ E፣ Fና B ግን የባቲን ክፍትና ፈላጊ ቀለም ያሳያሉ። የመጀመሪያውን መስመር C በ1፣ G በ4 ይጫወቱ። በሁለተኛው መስመር E–F–Gን በ4–5–6 እንደ መልስ ይጨምሩ።",
+        "en": "C Bati uses C–E–F–G–B. The root and fifth remain C and G; E, F, and B reveal Bati’s open, searching color. Play C on 1 and G on 4 in the first bar. In the second, add E–F–G on counts 4–5–6 as a response."
+      },
+      "exercises": [
+        { "type": "scale", "instruction": { "am": "C–E–F–G–B–Cን ወደ ላይና ወደ ታች በቀስታ ይጫወቱ።", "en": "Play C–E–F–G–B–C slowly up and down." } },
+        { "type": "groove", "pattern": ["C", null, null, "E", "F", "G"], "instruction": { "am": "Cን በ1 ያጽኑ፤ E–F–Gን በ4–5–6 እንደ አጭር መልስ ይጫወቱ።", "en": "Anchor C on 1, then play E–F–G on 4–5–6 as a short response." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "በC ባቲ ውስጥ ያሉት ኖታዎች የትኞቹ ናቸው?", "en": "Which notes belong to C Bati?" }, "choices": ["C E F G B", "C D E G A", "C Db F G Ab", "C Db F Gb A"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "የባቲን አጭር መልስ ያዳምጡ። ኖታዎቹ ወደ ላይ ናቸው ወይስ ወደ ታች?", "en": "Listen to the short Bati response. Do the notes move up or down?" }, "audio": { "midis": [40, 41, 43], "gap": 0.35 }, "choices": ["ወደ ላይ · Up", "ወደ ታች · Down", "አንድ ቦታ ላይ · On one pitch", "ኦክታቭ ይዘላሉ · They jump an octave"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "በC ባቲም ውስጥ የመሠረት–አምስተኛ ጥንድ የትኛው ነው?", "en": "What is the root–fifth pair in C Bati?" }, "choices": ["C–G", "C–F", "E–B", "F–B"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "bass-b-7",
+      "widget": "melody",
+      "scale": "ambassel",
+      "micro": true,
+      "melody": [0, 3, 1, 0, 4, 3, 1, 0],
+      "title": { "am": "የአምባሰል ጥልቅ ቀለም", "en": "Ambassel’s Deep Color" },
+      "goal": { "am": "የC አምባሰልን C–Db–F–G–Ab ለይቶ Dbና Abን በመሠረት–አምስተኛ ግሩቭ ውስጥ በጥንቃቄ ማስገባት።", "en": "Identify C–Db–F–G–Ab as C Ambassel and carefully place Db and Ab around the root–fifth groove." },
+      "body": {
+        "am": "C አምባሰል C–Db–F–G–Ab ነው። Db ከC አንድ ፍሬት ብቻ ከፍ ይላል፤ ወደ C ሲመለስ የአምባሰልን ናፍቆት ያሰማል። Cን በ1፣ Gን በ4፣ Dbን በ6 ይጫወቱና ወደሚቀጥለው C ይፍቱት። ኖታዎቹን አትጣደፉ፤ በእያንዳንዱ መካከል ክፍተት ይተዉ።",
+        "en": "C Ambassel is C–Db–F–G–Ab. Db sits only one fret above C; its return to C brings out Ambassel’s yearning color. Play C on 1, G on 4, and Db on 6, resolving into the next C. Do not rush the notes; leave space between them."
+      },
+      "exercises": [
+        { "type": "ear-note", "instruction": { "am": "C–Db–Cን በቀስታ ይጫወቱ፤ Db ወደ C ሲመለስ የሚፈጠረውን ስሜት ያዳምጡ።", "en": "Play C–Db–C slowly and hear the pull as Db resolves to C." } },
+        { "type": "groove", "pattern": ["C", null, null, "G", null, "Db"], "instruction": { "am": "C በ1፣ G በ4፣ Db በ6 ያለውን ግሩቭ በ54 BPM ይጫወቱ።", "en": "Play the groove with C on 1, G on 4, and Db on 6 at 54 BPM." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "በC አምባሰል ውስጥ ከC አንድ ፍሬት ከፍ ያለው ኖታ ምንድን ነው?", "en": "Which C Ambassel note lies one fret above C?" }, "choices": ["Db", "D", "E", "G"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "C–Db–Cን ያዳምጡ። መካከለኛው ኖታ ወደ C ይመለሳል?", "en": "Listen to C–Db–C. Does the middle note resolve back to C?" }, "audio": { "midis": [36, 37, 36], "gap": 0.55 }, "choices": ["አዎን · Yes", "አይ፣ ወደ G ይሄዳል · No, it goes to G", "አይ፣ ኖታው አይለወጥም · No, the pitch stays still", "ሁለት ኦክታቭ ይዘላል · It jumps two octaves"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "በC አምባሰል ውስጥ ያልገባው ኖታ የትኛው ነው?", "en": "Which note does not belong to C Ambassel?" }, "choices": ["E", "Db", "F", "Ab"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "bass-b-8",
+      "widget": "melody",
+      "scale": "anchihoye",
+      "micro": true,
+      "melody": [0, 2, 3, 4, 3, 2, 1, 0],
+      "title": { "am": "የአንቺሆዬ ጠንካራ እርምጃ", "en": "Anchihoye’s Strong Step" },
+      "goal": { "am": "የC አንቺሆዬን C–Db–F–Gb–A በመጠቀም ክፍተትና ጠንካራ የ1ኛ ምት ያለው የ6/8 ግሩቭ መጫወት።", "en": "Use C–Db–F–Gb–A to play a spacious 6/8 groove with a strong count 1." },
+      "body": {
+        "am": "C አንቺሆዬ C–Db–F–Gb–A ነው። ይህ ቅኝት Gን አይጠቀምም፤ ስለዚህ የተለመደውን C–G ጥንድ እዚህ አንጫወትም። Cን በ1 አጽንተው፣ Fን በ4፣ Gbን በ6 ይጫወቱ። ከዚያ በሚቀጥለው መስመር Aን በ4 አስገብተው የቅኝቱን ደማቅ ውጥረት ያዳምጡ።",
+        "en": "C Anchihoye is C–Db–F–Gb–A. This kiñit does not contain G, so the familiar C–G pair is not used here. Anchor C on 1, play F on 4, and Gb on 6. In the next bar, place A on 4 and listen for the kiñit’s bold tension."
+      },
+      "exercises": [
+        { "type": "groove", "pattern": ["C", null, null, "F", null, "Gb"], "instruction": { "am": "C በ1፣ F በ4፣ Gb በ6 በመጫወት በመካከላቸው ጸጥታ ይተዉ።", "en": "Play C on 1, F on 4, and Gb on 6, preserving silence between them." } },
+        { "type": "groove", "pattern": ["C", null, null, "A", null, "Gb"], "instruction": { "am": "ሁለተኛውን መስመር C–A–Gb ይጫወቱና በጠንካራ C ይመለሱ።", "en": "Play a second bar of C–A–Gb and return to a strong C." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "በC አንቺሆዬ ውስጥ የሌለው ኖታ የትኛው ነው?", "en": "Which note is absent from C Anchihoye?" }, "choices": ["G", "Db", "F", "A"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "Fና Gbን ያዳምጡ። በፍሬትቦርዱ ላይ ምን ያህል ይራራቃሉ?", "en": "Listen to F and Gb. How far apart are they on the fretboard?" }, "audio": { "midis": [41, 42] }, "choices": ["አንድ ፍሬት · One fret", "ሁለት ፍሬት · Two frets", "አምስት ፍሬት · Five frets", "አንድ ኦክታቭ · One octave"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "የአንቺሆዬን ቀለም ሳንቀይር በ4ኛው ምት ላይ ከC ጋር የትኛውን ኖታ መጠቀም እንችላለን?", "en": "Which note can accompany C on count 4 without leaving Anchihoye?" }, "choices": ["F", "G", "E", "B"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "bass-b-9",
+      "widget": "melody",
+      "scale": "tizita",
+      "micro": false,
+      "melody": [0, 3, 0, 3, 0, 1, 2, 0],
+      "title": { "am": "ከ6/8 ምት ጋር መቆለፍ", "en": "Locking with the 6/8 Feel" },
+      "goal": { "am": "1ኛና 4ኛ ምቶችን በትክክል በመያዝ፣ ኖታዎችን በንጽሕና በማቋረጥና ክፍተት በመተው ግሩቩን ከከበሮ ስሜት ጋር ማስማማት።", "en": "Lock the groove to the drum feel by landing precisely on 1 and 4, muting cleanly, and preserving space." },
+      "body": {
+        "am": "ባስ ከምቱ ጋር “መቆለፍ” ማለት ኖታዎቹን በትክክለኛው ጊዜ ማስገባትና በትክክለኛው ጊዜ ማቋረጥ ነው። ከበሮውን በልብዎ ይስሙ፦ ከባዱ ምት በ1፣ ሁለተኛው እርምጃ በ4። Cን በ1፣ Gን በ4 ይጫወቱ፤ በ2 እና 5 ላይ የሚጫነውን ጣት ትንሽ በማላቀቅ ኖታውን ያቁሙ። ይህ ጸጥታ ግሩቩን ያጠነክራል።",
+        "en": "To “lock” the bass with the pulse is to start and stop notes at deliberate times. Hear an imagined drum: the strongest hit on 1 and the second large step on 4. Play C on 1 and G on 4; on counts 2 and 5, slightly release fretting pressure to mute each note. That silence strengthens the groove."
+      },
+      "exercises": [
+        { "type": "muting", "instruction": { "am": "Cን በ1 ይጫወቱ፤ በ2 ላይ የግራ እጅ ጫናን ቀንሰው ድምፁን ያቁሙ። Gን በ4 ይጫወቱ፤ በ5 ያቁሙ።", "en": "Play C on 1 and release fretting pressure on 2 to stop it. Play G on 4 and stop it on 5." } },
+        { "type": "groove", "pattern": ["C", "mute", null, "G", "mute", null], "instruction": { "am": "ግሩቩን ከ54 BPM ጀምረው ስምንት መስመር ሳይቋረጥ ይጫወቱ።", "en": "Begin at 54 BPM and maintain the groove for eight uninterrupted bars." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "በ6/8 ግሩቭ ውስጥ የባሱ ዋና መግቢያዎች የት ናቸው?", "en": "Where are the bass’s main entries in this 6/8 groove?" }, "choices": ["በ1ና 4 · On 1 and 4", "በ2ና 3 · On 2 and 3", "በ5ና 6 · On 5 and 6", "በ1 ብቻ · On 1 only"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "አጭር ኖታዎቹን ያዳምጡ። በመካከላቸው የተተወው ጸጥታ ግሩቩን ያጠነክራል?", "en": "Listen to the short notes. Does the silence between them strengthen the groove?" }, "audio": { "midis": [36, 43, 36, 43], "gap": 0.65 }, "choices": ["አዎን · Yes", "አይ፣ ጊዜውን ያጠፋል · No, it ruins the time", "አይ፣ ኖታውን ከፍ ያደርጋል · No, it raises the pitch", "ጸጥታ አይሰማም · Silence cannot be heard"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "የተጫነ ኖታን በግራ እጅ እንዴት ማቋረጥ ይቻላል?", "en": "How can the fretting hand stop a note?" }, "choices": ["ጣቱን ከክሩ ሳያነሱ ጫናውን በመቀነስ · Ease pressure without lifting completely", "ክሩን በጣም በመጫን · Press much harder", "እጅን በመነቅነቅ · Shake the hand", "ፍሬት በመቀየር · Change fret"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "bass-b-10",
+      "widget": "melody",
+      "scale": "tizita",
+      "micro": true,
+      "melody": [0, 3, 1, 0, 0, 2, 3, 0],
+      "title": { "am": "አራቱ ቅኝቶች—የመጀመሪያ ትርዒት", "en": "Four Kiñit—First Performance" },
+      "goal": { "am": "ትዝታ፣ ባቲ፣ አምባሰልና አንቺሆዬን የሚለዩ አራት ኦሪጅናል የ6/8 ባስ ሐረጎችን በተረጋጋ ምት መጫወት።", "en": "Perform four original 6/8 bass phrases that clearly distinguish Tizita, Bati, Ambassel, and Anchihoye." },
+      "body": {
+        "am": "የጀማሪ ትርዒትዎ አራት ክፍሎች አሉት። እያንዳንዱን ሐረግ ሁለት ጊዜ ይጫወቱ፦ ትዝታ C–G–D–C፤ ባቲ C–G–E–F–G–C፤ አምባሰል C–G–Db–C፤ አንቺሆዬ C–F–Gb–A–C። ሁሉንም በ6/8 ስሜት ይያዙ፤ 1ኛውን ምት ያጽኑ፣ ኖታዎቹን በተለዋዋጭ ጣቶች ይንኩ፣ ክፍተቱንም ይጠብቁ።",
+        "en": "Your beginner performance has four sections. Play each phrase twice: Tizita C–G–D–C; Bati C–G–E–F–G–C; Ambassel C–G–Db–C; Anchihoye C–F–Gb–A–C. Keep every section in 6/8, emphasize count 1, alternate plucking fingers, and preserve the rests."
+      },
+      "exercises": [
+        { "type": "performance", "instruction": { "am": "እያንዳንዱን ቅኝት ለብቻው በ54 BPM አራት ጊዜ ይድገሙ።", "en": "Practice each kiñit section alone four times at 54 BPM." } },
+        { "type": "performance", "instruction": { "am": "አራቱን ክፍሎች ሳያቋርጡ ያገናኙ። ሲቀይሩ የመሠረቱን C ያጽኑ።", "en": "Connect all four sections without stopping, emphasizing the root C at each change." } }
+      ],
+      "quiz": [
+        { "type": "note-id", "prompt": { "am": "C–Db–F–G–Ab የትኛው ቅኝት ነው?", "en": "Which kiñit uses C–Db–F–G–Ab?" }, "choices": ["አምባሰል · Ambassel", "ትዝታ · Tizita", "ባቲ · Bati", "አንቺሆዬ · Anchihoye"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "ይህን C–F–Gb–A–C ሐረግ ያዳምጡ። የትኛውን ቅኝት ያሳያል?", "en": "Listen to C–F–Gb–A–C. Which kiñit does it express?" }, "audio": { "midis": [36, 41, 42, 45, 48], "gap": 0.4 }, "choices": ["አንቺሆዬ · Anchihoye", "ባቲ · Bati", "ትዝታ · Tizita", "አምባሰል · Ambassel"], "answer": 0 },
+        { "type": "ear-training", "prompt": { "am": "ይህን C–E–F–G–B–C ሐረግ ያዳምጡ። የትኛው ቅኝት ነው?", "en": "Listen to C–E–F–G–B–C. Which kiñit is it?" }, "audio": { "midis": [36, 40, 41, 43, 47, 48], "gap": 0.35 }, "choices": ["ባቲ · Bati", "አምባሰል · Ambassel", "አንቺሆዬ · Anchihoye", "ትዝታ · Tizita"], "answer": 0 },
+        { "type": "note-id", "prompt": { "am": "በአራቱም የትርዒት ክፍሎች ላይ ግሩቩን የሚያጠነክሩት ሦስት ነገሮች የትኞቹ ናቸው?", "en": "Which three habits strengthen all four performance sections?" }, "choices": ["1ኛውን ማጉላት፣ ጣቶችን ማፈራረቅ፣ ክፍተትን መጠበቅ · Strong 1, alternating fingers, preserved space", "ሁሉንም ምት መሙላት፣ መፍጠን፣ አንድ ጣት መጠቀም · Fill every beat, rush, use one finger", "ከምት ውጭ መጫወት፣ ፍሬትን መጫን፣ ጣትን ማጥበቅ · Play out of time, press on wire, tense up", "ሜትሮኖምን ማጥፋት፣ መሠረትን መርሳት፣ ኖታን ማራዘም · Avoid pulse, forget root, sustain everything"], "answer": 0 }
+      ]
+    }
+  ]
+}
