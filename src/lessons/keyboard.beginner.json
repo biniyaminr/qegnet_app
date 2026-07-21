@@ -7,38 +7,106 @@
       "widget": "freeplay",
       "scale": "tizita",
       "micro": false,
-      "title": { "am": "ኖታ ምንድን ነው?", "en": "What is a note?" },
+      "title": {
+        "am": "ኖታ ምንድን ነው?",
+        "en": "What is a note?"
+      },
+      "goal": {
+        "am": "አንድ ኪ አንድ የተወሰነ ከፍታ ያለው ኖታ እንደሚያሰማ መረዳትና ከፍተኛና ዝቅተኛ ድምፅን መለየት።",
+        "en": "Understand that one key produces one pitched note and distinguish higher from lower sound."
+      },
       "body": {
         "am": "ኖታ ማለት አንድ የሙዚቃ ድምፅ ነው — የራሱ ቅላፄ (ከፍታ ወይም ዝቅታ) ያለው። ማንኛውንም ኪ ተጫኑ፤ አንድ ኖታ ትሰማላችሁ። የአማርኛ ሙዚቃ ሁሉ ከጥቂት ኖታዎች ይሠራል።",
         "en": "A note is one musical sound with its own pitch — how high or low it is. Press any key below to hear a single note. Everything in Ethiopian music is built from just a handful of these."
       },
-      "exercises": [],
+      "exercises": [
+        {
+          "type": "freeplay",
+          "instruction": {
+            "am": "በግራ በኩል አንድ ኪ፣ በቀኝ በኩል አንድ ኪ ይጫወቱና የትኛው ከፍ እንደሚል ያዳምጡ።",
+            "en": "Play one key on the left and one on the right; hear which is higher."
+          }
+        },
+        {
+          "type": "freeplay",
+          "instruction": {
+            "am": "ሦስት የተለያዩ ኪዎችን በቀስታ አንድ አንድ ጊዜ ይጫወቱ።",
+            "en": "Play three different keys slowly, one at a time."
+          }
+        }
+      ],
       "quiz": [
         {
           "type": "ear-training",
-          "prompt": { "am": "ድምፁን ያዳምጡ። አንድ ኖታ ነው ወይስ ሁለት?", "en": "Listen. Do you hear one note or two?" },
-          "audio": { "midis": [60] },
-          "choices": ["አንድ ኖታ · One note", "ሁለት ኖታዎች · Two notes", "ምት ብቻ · A beat only", "ዝምታ · Silence"],
+          "prompt": {
+            "am": "ድምፁን ያዳምጡ። አንድ ኖታ ነው ወይስ ሁለት?",
+            "en": "Listen. Do you hear one note or two?"
+          },
+          "audio": {
+            "midis": [
+              60
+            ]
+          },
+          "choices": [
+            "አንድ ኖታ · One note",
+            "ሁለት ኖታዎች · Two notes",
+            "ምት ብቻ · A beat only",
+            "ዝምታ · Silence"
+          ],
           "answer": 0
         },
         {
           "type": "ear-training",
-          "prompt": { "am": "ሁለቱን ኖታዎች ያዳምጡ። ሁለተኛው ድምፅ እንዴት ነው?", "en": "Listen to the two notes. What happens to the second pitch?" },
-          "audio": { "midis": [60, 67] },
-          "choices": ["ከፍ ይላል · It goes higher", "ዝቅ ይላል · It goes lower", "አይለወጥም · It stays the same", "ምቱ ይፈጥናል · The beat speeds up"],
+          "prompt": {
+            "am": "ሁለቱን ኖታዎች ያዳምጡ። ሁለተኛው ድምፅ እንዴት ነው?",
+            "en": "Listen to the two notes. What happens to the second pitch?"
+          },
+          "audio": {
+            "midis": [
+              60,
+              67
+            ]
+          },
+          "choices": [
+            "ከፍ ይላል · It goes higher",
+            "ዝቅ ይላል · It goes lower",
+            "አይለወጥም · It stays the same",
+            "ምቱ ይፈጥናል · The beat speeds up"
+          ],
           "answer": 0
         },
         {
           "type": "note-id",
-          "prompt": { "am": "በኪቦርድ ላይ አንድ ኪ ሲጫኑ ምን ይሰማል?", "en": "What do you hear when you press one keyboard key?" },
-          "choices": ["አንድ ኖታ · One note", "አንድ ቅኝት · A whole kiñit", "አንድ ዘፈን · A song", "ሜትሮኖም · A metronome"],
+          "prompt": {
+            "am": "በኪቦርድ ላይ አንድ ኪ ሲጫኑ ምን ይሰማል?",
+            "en": "What do you hear when you press one keyboard key?"
+          },
+          "choices": [
+            "አንድ ኖታ · One note",
+            "አንድ ቅኝት · A whole kiñit",
+            "አንድ ዘፈን · A song",
+            "ሜትሮኖም · A metronome"
+          ],
           "answer": 0
         },
         {
           "type": "ear-training",
-          "prompt": { "am": "ሁለቱን ኖታዎች ያዳምጡ። ሁለተኛው ድምፅ ከመጀመሪያው ዝቅ ይላል?", "en": "Listen. Is the second note lower than the first?" },
-          "audio": { "midis": [69, 60] },
-          "choices": ["አዎን፣ ዝቅ ይላል · Yes, lower", "አይ፣ ከፍ ይላል · No, higher", "ድምፆቹ እኩል ናቸው · They are the same", "ኖታ አይደሉም · They are not notes"],
+          "prompt": {
+            "am": "ሁለቱን ኖታዎች ያዳምጡ። ሁለተኛው ድምፅ ከመጀመሪያው ዝቅ ይላል?",
+            "en": "Listen. Is the second note lower than the first?"
+          },
+          "audio": {
+            "midis": [
+              69,
+              60
+            ]
+          },
+          "choices": [
+            "አዎን፣ ዝቅ ይላል · Yes, lower",
+            "አይ፣ ከፍ ይላል · No, higher",
+            "ድምፆቹ እኩል ናቸው · They are the same",
+            "ኖታ አይደሉም · They are not notes"
+          ],
           "answer": 0
         }
       ]
@@ -48,36 +116,94 @@
       "widget": "named",
       "scale": "tizita",
       "micro": false,
-      "title": { "am": "ሰባቱ የኖታ ስሞች", "en": "The seven note names" },
+      "title": {
+        "am": "ሰባቱ የኖታ ስሞች",
+        "en": "The seven note names"
+      },
+      "goal": {
+        "am": "C–D–E–F–G–A–Bን በቅደም ተከተል መናገርና Cን ከሁለት ጥቁር ኪዎች በስተግራ ማግኘት።",
+        "en": "Name C–D–E–F–G–A–B in order and find C left of each two-black-key group."
+      },
       "body": {
         "am": "ምዕራባዊ ሙዚቃ ሰባት ኖታዎችን በስም ይጠራል፦ C D E F G A B — ከዚያ እንደገና ወደ ላይ ይደግማል። እነዚህ ነጫጭ ኪዎች ናቸው። C ን ፈልጉ፦ ከሁለቱ ጥቁር ኪዎች ግራ በኩል ይገኛል።",
         "en": "Western music names seven notes: C D E F G A B, then the pattern repeats higher up. These are the white keys. Find C — it sits just to the left of every group of two black keys."
       },
-      "exercises": [],
+      "exercises": [
+        {
+          "type": "note-identification",
+          "instruction": {
+            "am": "ሦስት የሁለት ጥቁር ኪዎች ቡድኖችን ፈልገው ከእያንዳንዳቸው በስተግራ Cን ይጫወቱ።",
+            "en": "Find three groups of two black keys and play the C to the left of each."
+          }
+        },
+        {
+          "type": "note-identification",
+          "instruction": {
+            "am": "ከመካከለኛው C ጀምረው C–D–E–F–G–A–B–C ይጫወቱና ስሞቹን ይናገሩ።",
+            "en": "From middle C, play C–D–E–F–G–A–B–C and say each name."
+          }
+        }
+      ],
       "quiz": [
         {
           "type": "note-id",
-          "prompt": { "am": "ከሁለት ጥቁር ኪዎች ቡድን በስተግራ ያለው ነጭ ኪ ምንድን ነው?", "en": "Which white key sits immediately left of a group of two black keys?" },
-          "choices": ["C", "D", "F", "A"],
+          "prompt": {
+            "am": "ከሁለት ጥቁር ኪዎች ቡድን በስተግራ ያለው ነጭ ኪ ምንድን ነው?",
+            "en": "Which white key sits immediately left of a group of two black keys?"
+          },
+          "choices": [
+            "C",
+            "D",
+            "F",
+            "A"
+          ],
           "answer": 0
         },
         {
           "type": "note-id",
-          "prompt": { "am": "ከE ቀጥሎ ያለው ነጭ ኪ የትኛው ነው?", "en": "Which white key comes immediately after E?" },
-          "choices": ["F", "G", "D", "B"],
+          "prompt": {
+            "am": "ከE ቀጥሎ ያለው ነጭ ኪ የትኛው ነው?",
+            "en": "Which white key comes immediately after E?"
+          },
+          "choices": [
+            "F",
+            "G",
+            "D",
+            "B"
+          ],
           "answer": 0
         },
         {
           "type": "ear-training",
-          "prompt": { "am": "ይህን ኖታ ያዳምጡ። በመካከለኛው C ላይ ነው። ስሙ ማን ነው?", "en": "Listen to this note at middle C. What is its name?" },
-          "audio": { "midis": [60] },
-          "choices": ["C", "E", "G", "B"],
+          "prompt": {
+            "am": "ይህን ኖታ ያዳምጡ። በመካከለኛው C ላይ ነው። ስሙ ማን ነው?",
+            "en": "Listen to this note at middle C. What is its name?"
+          },
+          "audio": {
+            "midis": [
+              60
+            ]
+          },
+          "choices": [
+            "C",
+            "E",
+            "G",
+            "B"
+          ],
           "answer": 0
         },
         {
           "type": "note-id",
-          "prompt": { "am": "ሰባቱ የኖታ ስሞች ከB በኋላ እንዴት ይቀጥላሉ?", "en": "How do the seven note names continue after B?" },
-          "choices": ["ከC እንደገና ይጀምራሉ · They restart at C", "በH ይቀጥላሉ · They continue to H", "በA ያበቃሉ · They end at A", "ወደG ይመለሳሉ · They return to G"],
+          "prompt": {
+            "am": "ሰባቱ የኖታ ስሞች ከB በኋላ እንዴት ይቀጥላሉ?",
+            "en": "How do the seven note names continue after B?"
+          },
+          "choices": [
+            "ከC እንደገና ይጀምራሉ · They restart at C",
+            "በH ይቀጥላሉ · They continue to H",
+            "በA ያበቃሉ · They end at A",
+            "ወደG ይመለሳሉ · They return to G"
+          ],
           "answer": 0
         }
       ]
@@ -87,37 +213,103 @@
       "widget": "scale",
       "scale": "tizita",
       "micro": true,
-      "title": { "am": "ቅኝት ምንድን ነው? — ትዝታ", "en": "What is a scale? — Tizita" },
+      "title": {
+        "am": "ቅኝት ምንድን ነው? — ትዝታ",
+        "en": "What is a scale? — Tizita"
+      },
+      "goal": {
+        "am": "ቅኝት የተመረጡ ኖታዎች ስብስብ መሆኑን መረዳትና C–D–E–G–Aን እንደ C ትዝታ መለየት።",
+        "en": "Understand a kiñit as a chosen note set and identify C–D–E–G–A as C Tizita."
+      },
       "body": {
         "am": "ቅኝት ማለት አብረው የሚያማምሩ የተመረጡ ኖታዎች ስብስብ ነው፤ ለሙዚቃው ስሜት ይሰጣል። ኢትዮጵያ አራት ዋና ቅኝቶች አሏት። በጣም ወዳጃዊው ትዝታ ነው — ሙቀትና ናፍቆት ያለው። ትዝታ የሚጠቀመው C D E G A ነው። “ቅኝቱን አጫውት” ተጫኑ።",
         "en": "A scale (kiñit) is a chosen set of notes that sound good together and give the music a mood. Ethiopia has four main kiñit; the friendliest is Tizita — warm and nostalgic. Tizita uses C D E G A. Press “Play the scale” and watch each key light up."
       },
-      "exercises": [],
+      "exercises": [
+        {
+          "type": "scale",
+          "instruction": {
+            "am": "C–D–E–G–Aን በቀኝ እጅ ቀስ ብለው ይጫወቱና እያንዳንዱን ስም ይናገሩ።",
+            "en": "Play C–D–E–G–A slowly with the right hand and say each name."
+          }
+        },
+        {
+          "type": "ear-scale",
+          "instruction": {
+            "am": "ቅኝቱን ሁለት ጊዜ ያዳምጡ፤ ከዚያ Cን እንደ ቤት ኖታ ለይተው ይጫወቱ።",
+            "en": "Hear the kiñit twice, then find and play C as its home note."
+          }
+        }
+      ],
       "quiz": [
         {
           "type": "note-id",
-          "prompt": { "am": "በC ላይ ያለው የትዝታ ቅኝት የትኞቹን ኖታዎች ይጠቀማል?", "en": "Which notes make C Tizita?" },
-          "choices": ["C D E G A", "C D F G B", "C Eb F Ab Bb", "C E F# G B"],
+          "prompt": {
+            "am": "በC ላይ ያለው የትዝታ ቅኝት የትኞቹን ኖታዎች ይጠቀማል?",
+            "en": "Which notes make C Tizita?"
+          },
+          "choices": [
+            "C D E G A",
+            "C D F G B",
+            "C Eb F Ab Bb",
+            "C E F# G B"
+          ],
           "answer": 0
         },
         {
           "type": "ear-training",
-          "prompt": { "am": "ቅኝቱን ያዳምጡ። ስንት የተለያዩ ኖታዎች ሰሙ?", "en": "Listen to the kiñit. How many different notes do you hear?" },
-          "audio": { "midis": [60, 62, 64, 67, 69] },
-          "choices": ["አምስት · Five", "አራት · Four", "ስድስት · Six", "ሰባት · Seven"],
+          "prompt": {
+            "am": "ቅኝቱን ያዳምጡ። ስንት የተለያዩ ኖታዎች ሰሙ?",
+            "en": "Listen to the kiñit. How many different notes do you hear?"
+          },
+          "audio": {
+            "midis": [
+              60,
+              62,
+              64,
+              67,
+              69
+            ]
+          },
+          "choices": [
+            "አምስት · Five",
+            "አራት · Four",
+            "ስድስት · Six",
+            "ሰባት · Seven"
+          ],
           "answer": 0
         },
         {
           "type": "ear-training",
-          "prompt": { "am": "ያዳምጡ። የሰሙት ኖታ በC ትዝታ ውስጥ አለ?", "en": "Listen. Does this note belong to C Tizita?" },
-          "audio": { "midis": [67] },
-          "choices": ["አዎን፣ G ነው · Yes, it is G", "አይ፣ F ነው · No, it is F", "አይ፣ B ነው · No, it is B", "አይ፣ C♯ ነው · No, it is C♯"],
+          "prompt": {
+            "am": "ያዳምጡ። የሰሙት ኖታ በC ትዝታ ውስጥ አለ?",
+            "en": "Listen. Does this note belong to C Tizita?"
+          },
+          "audio": {
+            "midis": [
+              67
+            ]
+          },
+          "choices": [
+            "አዎን፣ G ነው · Yes, it is G",
+            "አይ፣ F ነው · No, it is F",
+            "አይ፣ B ነው · No, it is B",
+            "አይ፣ C♯ ነው · No, it is C♯"
+          ],
           "answer": 0
         },
         {
           "type": "note-id",
-          "prompt": { "am": "ቅኝት ለሙዚቃ ምን ይሰጣል?", "en": "What does a kiñit give music?" },
-          "choices": ["የራሱን የድምፅ ቀለምና ስሜት · Its own color and feeling", "የድምፅ መጠን ብቻ · Only volume", "የመሣሪያ ስም · An instrument name", "የዘፈን ርዝመት · Song length"],
+          "prompt": {
+            "am": "ቅኝት ለሙዚቃ ምን ይሰጣል?",
+            "en": "What does a kiñit give music?"
+          },
+          "choices": [
+            "የራሱን የድምፅ ቀለምና ስሜት · Its own color and feeling",
+            "የድምፅ መጠን ብቻ · Only volume",
+            "የመሣሪያ ስም · An instrument name",
+            "የዘፈን ርዝመት · Song length"
+          ],
           "answer": 0
         }
       ]
@@ -127,37 +319,107 @@
       "widget": "updown",
       "scale": "tizita",
       "micro": false,
-      "title": { "am": "ቅኝቱን ወደ ላይና ወደ ታች መጫወት", "en": "Playing the scale up and down" },
+      "title": {
+        "am": "ቅኝቱን ወደ ላይና ወደ ታች መጫወት",
+        "en": "Playing the scale up and down"
+      },
+      "goal": {
+        "am": "C ትዝታን በቀኝ እጅ ወደ ላይና ታች በተረጋጋ ምት መጫወት።",
+        "en": "Play C Tizita up and down with the right hand and a steady pulse."
+      },
       "body": {
         "am": "አሁን አምስቱን ኖታዎች በቅደም ተከተል ወደ ላይ፣ ከዚያም ወደ ታች ተጫወቱ። እያንዳንዱ ኪ ሲበራ ተመልከቱ፤ በእጃችሁ ለመከተል ሞክሩ። ሜትሮኖሙን አብርታችሁ ከምት ጋር ሞክሩ።",
         "en": "Now play the five notes in order going up, then back down again. Watch each key light in turn and try to match it with your own hand. Turn on the metronome and play in time with the pulse."
       },
-      "exercises": [],
+      "exercises": [
+        {
+          "type": "scale",
+          "instruction": {
+            "am": "C–D–E–G–A–G–E–D–Cን ያለ ሜትሮኖም እኩል ፍጥነት ይጫወቱ።",
+            "en": "Play C–D–E–G–A–G–E–D–C evenly without the metronome."
+          }
+        },
+        {
+          "type": "scale",
+          "instruction": {
+            "am": "ተመሳሳዩን ቅደም ተከተል በ60 BPM አንድ ኖታ በአንድ ምት ይጫወቱ።",
+            "en": "Play the same sequence at 60 BPM, one note per beat."
+          }
+        }
+      ],
       "quiz": [
         {
           "type": "ear-training",
-          "prompt": { "am": "የትዝታ ኖታዎችን ያዳምጡ። ዜማው ወዴት እየሄደ ነው?", "en": "Listen to the Tizita notes. Which direction are they moving?" },
-          "audio": { "midis": [60, 62, 64, 67, 69] },
-          "choices": ["ወደ ላይ · Up", "ወደ ታች · Down", "አንድ ቦታ ላይ · Staying on one pitch", "በዘፈቀደ · Randomly"],
+          "prompt": {
+            "am": "የትዝታ ኖታዎችን ያዳምጡ። ዜማው ወዴት እየሄደ ነው?",
+            "en": "Listen to the Tizita notes. Which direction are they moving?"
+          },
+          "audio": {
+            "midis": [
+              60,
+              62,
+              64,
+              67,
+              69
+            ]
+          },
+          "choices": [
+            "ወደ ላይ · Up",
+            "ወደ ታች · Down",
+            "አንድ ቦታ ላይ · Staying on one pitch",
+            "በዘፈቀደ · Randomly"
+          ],
           "answer": 0
         },
         {
           "type": "ear-training",
-          "prompt": { "am": "ይህን ቅደም ተከተል ያዳምጡ። ትዝታን ወደ ታች በትክክል ያሳያል?", "en": "Listen. Is this C Tizita played correctly downward?" },
-          "audio": { "midis": [69, 67, 64, 62, 60] },
-          "choices": ["አዎን · Yes", "አይ፣ ወደ ላይ ነው · No, it goes up", "አይ፣ አንድ ኖታ ነው · No, it is one note", "አይ፣ ምት ብቻ ነው · No, it is only rhythm"],
+          "prompt": {
+            "am": "ይህን ቅደም ተከተል ያዳምጡ። ትዝታን ወደ ታች በትክክል ያሳያል?",
+            "en": "Listen. Is this C Tizita played correctly downward?"
+          },
+          "audio": {
+            "midis": [
+              69,
+              67,
+              64,
+              62,
+              60
+            ]
+          },
+          "choices": [
+            "አዎን · Yes",
+            "አይ፣ ወደ ላይ ነው · No, it goes up",
+            "አይ፣ አንድ ኖታ ነው · No, it is one note",
+            "አይ፣ ምት ብቻ ነው · No, it is only rhythm"
+          ],
           "answer": 0
         },
         {
           "type": "note-id",
-          "prompt": { "am": "C ትዝታን ወደ ላይ ሲጫወቱ ከE ቀጥሎ የሚመጣው ኖታ ምንድን ነው?", "en": "When playing C Tizita upward, which note follows E?" },
-          "choices": ["G", "F", "A", "B"],
+          "prompt": {
+            "am": "C ትዝታን ወደ ላይ ሲጫወቱ ከE ቀጥሎ የሚመጣው ኖታ ምንድን ነው?",
+            "en": "When playing C Tizita upward, which note follows E?"
+          },
+          "choices": [
+            "G",
+            "F",
+            "A",
+            "B"
+          ],
           "answer": 0
         },
         {
           "type": "note-id",
-          "prompt": { "am": "ከሜትሮኖም ጋር ሲለማመዱ ዋናው ግብ ምንድን ነው?", "en": "What is the main goal when practicing with a metronome?" },
-          "choices": ["እያንዳንዱን ኖታ ከምቱ ጋር ማስማማት · Place each note with the pulse", "በተቻለ ፍጥነት መጫወት · Play as fast as possible", "አንድ ኖታ መዝለል · Skip one note", "ሜትሮኖሙን አለመስማት · Ignore the metronome"],
+          "prompt": {
+            "am": "ከሜትሮኖም ጋር ሲለማመዱ ዋናው ግብ ምንድን ነው?",
+            "en": "What is the main goal when practicing with a metronome?"
+          },
+          "choices": [
+            "እያንዳንዱን ኖታ ከምቱ ጋር ማስማማት · Place each note with the pulse",
+            "በተቻለ ፍጥነት መጫወት · Play as fast as possible",
+            "አንድ ኖታ መዝለል · Skip one note",
+            "ሜትሮኖሙን አለመስማት · Ignore the metronome"
+          ],
           "answer": 0
         }
       ]
@@ -167,38 +429,118 @@
       "widget": "melody",
       "scale": "tizita",
       "micro": false,
-      "melody": [2, 3, 4, 3, 2, 0, 2, 4],
-      "title": { "am": "የመጀመሪያ ዜማችሁ — ባለ3-ኖታ", "en": "Your first melody — three notes" },
+      "melody": [
+        2,
+        3,
+        4,
+        3,
+        2,
+        0,
+        2,
+        4
+      ],
+      "title": {
+        "am": "የመጀመሪያ ዜማችሁ — አጭር የትዝታ ሐረግ",
+        "en": "Your first melody — a short Tizita phrase"
+      },
+      "goal": {
+        "am": "አጭር ኦሪጅናል የትዝታ ዜማን በማዳመጥ፣ በመከተልና በተረጋጋ ምት መጫወት።",
+        "en": "Hear, follow, and perform a short original Tizita melody with steady time."
+      },
       "body": {
         "am": "ዜማ ማለት ኖታዎችን አንዱን ተከትሎ ሌላውን መጫወት ነው። ይህ አጭር የትዝታ ዜማ ነው (የራሳችን ኦሪጅናል)። መጀመሪያ አጫውቱት፤ ከዚያ ኪዎቹን እናንተው ተጫወቱ። እንኳን ደስ አላችሁ — ተጫዋች ሆናችኋል!",
         "en": "A melody is notes played one after another. Here is a short, original Tizita phrase. Press play to hear it, then play the keys yourself to match. Congratulations — you are now playing music!"
       },
-      "exercises": [],
+      "exercises": [
+        {
+          "type": "melody-echo",
+          "instruction": {
+            "am": "ዜማውን ሁለት ጊዜ ያዳምጡና አራቱን ኖታዎች በክፍል በክፍል ይድገሙ።",
+            "en": "Hear the melody twice and echo its four-note groups."
+          }
+        },
+        {
+          "type": "melody",
+          "instruction": {
+            "am": "ሙሉውን ዜማ በ60 BPM ሦስት ጊዜ ሳያቋርጡ ይጫወቱ።",
+            "en": "Play the full melody three times without stopping at 60 BPM."
+          }
+        }
+      ],
       "quiz": [
         {
           "type": "ear-training",
-          "prompt": { "am": "የትምህርቱን ዜማ ያዳምጡ። የመጨረሻው ኖታ የትኛው ነው?", "en": "Listen to the lesson melody. Which note ends the phrase?" },
-          "audio": { "midis": [64, 67, 69, 67, 64, 60, 64, 69] },
-          "choices": ["A", "C", "E", "G"],
+          "prompt": {
+            "am": "የትምህርቱን ዜማ ያዳምጡ። የመጨረሻው ኖታ የትኛው ነው?",
+            "en": "Listen to the lesson melody. Which note ends the phrase?"
+          },
+          "audio": {
+            "midis": [
+              64,
+              67,
+              69,
+              67,
+              64,
+              60,
+              64,
+              69
+            ]
+          },
+          "choices": [
+            "A",
+            "C",
+            "E",
+            "G"
+          ],
           "answer": 0
         },
         {
           "type": "ear-training",
-          "prompt": { "am": "የዜማውን መጀመሪያ ያዳምጡ። ሦስተኛው ኖታ ከሁለተኛው ከፍ ይላል ወይስ ዝቅ?", "en": "Listen to the opening. Is the third note higher or lower than the second?" },
-          "audio": { "midis": [64, 67, 69] },
-          "choices": ["ከፍ ይላል · Higher", "ዝቅ ይላል · Lower", "እኩል ነው · The same", "አይሰማም · It is silent"],
+          "prompt": {
+            "am": "የዜማውን መጀመሪያ ያዳምጡ። ሦስተኛው ኖታ ከሁለተኛው ከፍ ይላል ወይስ ዝቅ?",
+            "en": "Listen to the opening. Is the third note higher or lower than the second?"
+          },
+          "audio": {
+            "midis": [
+              64,
+              67,
+              69
+            ]
+          },
+          "choices": [
+            "ከፍ ይላል · Higher",
+            "ዝቅ ይላል · Lower",
+            "እኩል ነው · The same",
+            "አይሰማም · It is silent"
+          ],
           "answer": 0
         },
         {
           "type": "note-id",
-          "prompt": { "am": "ይህ ዜማ የሚጠቀመው የትኛውን ቅኝት ነው?", "en": "Which kiñit supplies the notes for this melody?" },
-          "choices": ["ትዝታ · Tizita", "ባቲ · Bati", "አምባሰል · Ambassel", "አንቺሆዬ · Anchihoye"],
+          "prompt": {
+            "am": "ይህ ዜማ የሚጠቀመው የትኛውን ቅኝት ነው?",
+            "en": "Which kiñit supplies the notes for this melody?"
+          },
+          "choices": [
+            "ትዝታ · Tizita",
+            "ባቲ · Bati",
+            "አምባሰል · Ambassel",
+            "አንቺሆዬ · Anchihoye"
+          ],
           "answer": 0
         },
         {
           "type": "note-id",
-          "prompt": { "am": "ዜማ እንዴት ይፈጠራል?", "en": "How is a melody formed?" },
-          "choices": ["ኖታዎችን በተወሰነ ቅደም ተከተል በመጫወት · By playing notes in an intentional order", "ሁሉንም ኪዎች በአንድ ጊዜ በመጫወት · By pressing every key together", "ሜትሮኖምን ብቻ በማዳመጥ · By hearing only a metronome", "የድምፅ መጠንን ብቻ በመቀየር · By changing only the volume"],
+          "prompt": {
+            "am": "ዜማ እንዴት ይፈጠራል?",
+            "en": "How is a melody formed?"
+          },
+          "choices": [
+            "ኖታዎችን በተወሰነ ቅደም ተከተል በመጫወት · By playing notes in an intentional order",
+            "ሁሉንም ኪዎች በአንድ ጊዜ በመጫወት · By pressing every key together",
+            "ሜትሮኖምን ብቻ በማዳመጥ · By hearing only a metronome",
+            "የድምፅ መጠንን ብቻ በመቀየር · By changing only the volume"
+          ],
           "answer": 0
         }
       ]
@@ -208,21 +550,99 @@
       "widget": "melody",
       "scale": "tizita",
       "micro": true,
-      "melody": [0, 2, 3, 2, 0, 4, 3, 0],
-      "title": { "am": "ሁለቱን እጅ አንድ ላይ", "en": "Both Hands Together" },
-      "goal": { "am": "የግራ እጅ መሠረት ኖታን ይዞ የቀኝ እጅ ዜማን መጨመር፤ ኪቦርዱ በአንድ ጊዜ አንድ ድምፅ ብቻ እንደሚያሳይ እየተረዱ ሁለቱን በአእምሮ ማዋሃድ።", "en": "Hold a left-hand root note while adding a right-hand melody, understanding that the keyboard demonstrates one voice at a time even though your two hands will make the full sound together." },
+      "melody": [
+        0,
+        2,
+        3,
+        2,
+        0,
+        4,
+        3,
+        0
+      ],
+      "title": {
+        "am": "ሁለቱን እጅ አንድ ላይ",
+        "en": "Both Hands Together"
+      },
+      "goal": {
+        "am": "የግራ እጅ መሠረት ኖታን ይዞ የቀኝ እጅ ዜማን መጨመር፤ ኪቦርዱ በአንድ ጊዜ አንድ ድምፅ ብቻ እንደሚያሳይ እየተረዱ ሁለቱን በአእምሮ ማዋሃድ።",
+        "en": "Hold a left-hand root note while adding a right-hand melody, understanding that the keyboard demonstrates one voice at a time even though your two hands will make the full sound together."
+      },
       "body": {
         "am": "እውነተኛ ኪቦርድ ሲጫወቱ የግራ እጅ አንድ ኖታ ይይዛል፣ የቀኝ እጅ ደግሞ ዜማ ይጫወታል — ሁለቱም አብረው ሙሉውን ድምፅ ይፈጥራሉ። ይህ መተግበሪያ ግን በአንድ ጊዜ አንድ ድምፅ ብቻ ማጫወት ስለሚችል ከታች ያለውን የቀኝ እጅ ዜማ ብቻ ያሳይልዎታል፤ የግራ እጅ መሠረቱን ግን እርስዎ እራስዎ በአእምሮዎ ወይም በእውነተኛ ኪቦርድ ላይ መያዝ አለብዎት። መጀመሪያ በግራ እጅ መካከለኛውን Cን (ወይም ከዚያ አንድ ኦክታቭ ዝቅ ያለውን) ይያዙና ሳይለቁ በቀኝ እጅ ከታች ያለውን ዜማ ይጫወቱ።",
         "en": "On a real keyboard, the left hand holds one note while the right hand plays a melody — together they make the full sound. Because this app can only play one voice at a time, it will demonstrate just the right-hand melody below; you must hold the left-hand root yourself, either in your mind or on a real keyboard. Begin by holding middle C (or the C an octave below) with your left hand, and, without letting go, play the right-hand melody below."
       },
       "exercises": [
-        { "type": "technique", "instruction": { "am": "በግራ እጅ መካከለኛውን Cን ይያዙና ለስምንት ምት ያክል ያቆዩት፤ ድምፁን በአእምሮዎ ይያዙ።", "en": "Hold middle C with your left hand for eight beats, keeping its sound in mind." } },
-        { "type": "phrase", "instruction": { "am": "አሁን ያንን Cን በአእምሮዎ እየያዙ ከታች ያለውን ዜማ በቀኝ እጅ ብቻ ይጫወቱ፤ ኪቦርዱ የሚያሳይዎት ይህንኑ የቀኝ እጅ ክፍል ብቻ ነው።", "en": "Now, imagining that C held underneath, play only the melody below with your right hand — the keyboard demonstrates just this right-hand part." } }
+        {
+          "type": "technique",
+          "instruction": {
+            "am": "በግራ እጅ መካከለኛውን Cን ይያዙና ለስምንት ምት ያክል ያቆዩት፤ ድምፁን በአእምሮዎ ይያዙ።",
+            "en": "Hold middle C with your left hand for eight beats, keeping its sound in mind."
+          }
+        },
+        {
+          "type": "phrase",
+          "instruction": {
+            "am": "አሁን ያንን Cን በአእምሮዎ እየያዙ ከታች ያለውን ዜማ በቀኝ እጅ ብቻ ይጫወቱ፤ ኪቦርዱ የሚያሳይዎት ይህንኑ የቀኝ እጅ ክፍል ብቻ ነው።",
+            "en": "Now, imagining that C held underneath, play only the melody below with your right hand — the keyboard demonstrates just this right-hand part."
+          }
+        }
       ],
       "quiz": [
-        { "type": "note-id", "prompt": { "am": "ይህ መተግበሪያ በአንድ ጊዜ ስንት ድምፅ ማጫወት ይችላል?", "en": "How many voices can this app play at once?" }, "choices": ["አንድ ብቻ · Only one", "ሁለት · Two", "ሦስት · Three", "ያልተወሰነ · Unlimited"], "answer": 0 },
-        { "type": "note-id", "prompt": { "am": "የሁለት እጅ ሙሉ ድምፅ የሚፈጠረው እንዴት ነው?", "en": "How is the full two-hand sound created?" }, "choices": ["በእውነተኛ ተጫዋቹ ሁለት እጆች ተዳምረው · By the player's own two hands combined", "በመተግበሪያው ብቻ በራስ-ሰር · By the app alone, automatically", "በቀኝ እጅ ብቻ · By the right hand alone", "በሜትሮኖም · By the metronome"], "answer": 0 },
-        { "type": "ear-training", "prompt": { "am": "የቀኝ እጅ ዜማውን ያዳምጡ። የመጨረሻው ኖታ የትኛው ነው?", "en": "Listen to the right-hand melody. Which note ends it?" }, "audio": { "midis": [60, 64, 67, 64, 60, 69, 67, 60] }, "choices": ["C", "A", "G", "E"], "answer": 0 }
+        {
+          "type": "note-id",
+          "prompt": {
+            "am": "ይህ መተግበሪያ በአንድ ጊዜ ስንት ድምፅ ማጫወት ይችላል?",
+            "en": "How many voices can this app play at once?"
+          },
+          "choices": [
+            "አንድ ብቻ · Only one",
+            "ሁለት · Two",
+            "ሦስት · Three",
+            "ያልተወሰነ · Unlimited"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "note-id",
+          "prompt": {
+            "am": "የሁለት እጅ ሙሉ ድምፅ የሚፈጠረው እንዴት ነው?",
+            "en": "How is the full two-hand sound created?"
+          },
+          "choices": [
+            "በእውነተኛ ተጫዋቹ ሁለት እጆች ተዳምረው · By the player's own two hands combined",
+            "በመተግበሪያው ብቻ በራስ-ሰር · By the app alone, automatically",
+            "በቀኝ እጅ ብቻ · By the right hand alone",
+            "በሜትሮኖም · By the metronome"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "ear-training",
+          "prompt": {
+            "am": "የቀኝ እጅ ዜማውን ያዳምጡ። የመጨረሻው ኖታ የትኛው ነው?",
+            "en": "Listen to the right-hand melody. Which note ends it?"
+          },
+          "audio": {
+            "midis": [
+              60,
+              64,
+              67,
+              64,
+              60,
+              69,
+              67,
+              60
+            ]
+          },
+          "choices": [
+            "C",
+            "A",
+            "G",
+            "E"
+          ],
+          "answer": 0
+        }
       ]
     },
     {
@@ -230,21 +650,96 @@
       "widget": "melody",
       "scale": "bati",
       "micro": true,
-      "melody": [0, 1, 2, 3, 4, 3, 1, 0],
-      "title": { "am": "ባቲ በኪቦርድ", "en": "Bati on the Keys" },
-      "goal": { "am": "C ባቲን C–E–F–G–Bን በመጠቀም የግራ እጅ መሠረት ይዞ የቀኝ እጅ ኦሪጅናል ዜማ መጨመር።", "en": "Use C Bati's C–E–F–G–B, holding a left-hand root while adding an original right-hand phrase." },
+      "melody": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        1,
+        0
+      ],
+      "title": {
+        "am": "ባቲ በኪቦርድ",
+        "en": "Bati on the Keys"
+      },
+      "goal": {
+        "am": "C ባቲን C–E–F–G–Bን በመጠቀም የግራ እጅ መሠረት ይዞ የቀኝ እጅ ኦሪጅናል ዜማ መጨመር።",
+        "en": "Use C Bati's C–E–F–G–B, holding a left-hand root while adding an original right-hand phrase."
+      },
       "body": {
         "am": "C ባቲ C–E–F–G–B ነው — ብሩህና ፈላጊ ቀለም አለው። ልክ እንደ ቀደመው ትምህርት፣ ኪቦርዱ የሚያሳይዎት የቀኝ እጅ ዜማ ብቻ ነው፤ የግራ እጅ Cን እርስዎ ይያዙ። ከታች ያለውን C–E–F–G–B–G–E–C ዜማ ያዳምጡና ይድገሙት፤ ከዚያ Cን በግራ እጅ በአእምሮ ይዘው በቀኝ እጅ ብቻ ይጫወቱት።",
         "en": "C Bati is C–E–F–G–B — a bright, searching color. As in the last lesson, the keyboard shows only the right-hand melody; hold the left-hand C yourself. Listen to the C–E–F–G–B–G–E–C phrase below and echo it, then play it with your right hand alone while imagining the left-hand C underneath."
       },
       "exercises": [
-        { "type": "technique", "instruction": { "am": "የግራ እጅ Cን ይያዙና ከታች ያለውን ዜማ በቀኝ እጅ ብቻ ይጫወቱ።", "en": "Hold the left-hand C and play the melody below with your right hand alone." } },
-        { "type": "phrase", "instruction": { "am": "ኦሪጅናሉን C–E–F–G–B–G–E–C ዜማ ያዳምጡና ይድገሙት፤ Bን ወደ ላይ ከፍ አድርገው ያድምጡት።", "en": "Listen to and echo the original C–E–F–G–B–G–E–C phrase, listening for how B lifts the phrase upward." } }
+        {
+          "type": "technique",
+          "instruction": {
+            "am": "የግራ እጅ Cን ይያዙና ከታች ያለውን ዜማ በቀኝ እጅ ብቻ ይጫወቱ።",
+            "en": "Hold the left-hand C and play the melody below with your right hand alone."
+          }
+        },
+        {
+          "type": "phrase",
+          "instruction": {
+            "am": "ኦሪጅናሉን C–E–F–G–B–G–E–C ዜማ ያዳምጡና ይድገሙት፤ Bን ወደ ላይ ከፍ አድርገው ያድምጡት።",
+            "en": "Listen to and echo the original C–E–F–G–B–G–E–C phrase, listening for how B lifts the phrase upward."
+          }
+        }
       ],
       "quiz": [
-        { "type": "note-id", "prompt": { "am": "የC ባቲ ኖታዎች የትኞቹ ናቸው?", "en": "Which notes make C Bati?" }, "choices": ["C E F G B", "C D E G A", "C Db F G Ab", "C Db F Gb A"], "answer": 0 },
-        { "type": "ear-training", "prompt": { "am": "ቅኝቱን ያዳምጡ። ከG በኋላ የሚሰማው ከፍተኛ ኖታ የትኛው ነው?", "en": "Listen to the scale. Which high note follows G?" }, "audio": { "midis": [60, 64, 65, 67, 71] }, "choices": ["B", "A", "Ab", "D"], "answer": 0 },
-        { "type": "note-id", "prompt": { "am": "በዚህ ትምህርት የግራ እጅ ኖታን የሚይዘው ማን ነው?", "en": "Who holds the left-hand note in this lesson?" }, "choices": ["ተጫዋቹ ራሱ · The player, themselves", "መተግበሪያው ብቻ · The app, automatically", "ሜትሮኖሙ · The metronome", "ምንም አይያዝም · No one holds it"], "answer": 0 }
+        {
+          "type": "note-id",
+          "prompt": {
+            "am": "የC ባቲ ኖታዎች የትኞቹ ናቸው?",
+            "en": "Which notes make C Bati?"
+          },
+          "choices": [
+            "C E F G B",
+            "C D E G A",
+            "C Db F G Ab",
+            "C Db F Gb A"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "ear-training",
+          "prompt": {
+            "am": "ቅኝቱን ያዳምጡ። ከG በኋላ የሚሰማው ከፍተኛ ኖታ የትኛው ነው?",
+            "en": "Listen to the scale. Which high note follows G?"
+          },
+          "audio": {
+            "midis": [
+              60,
+              64,
+              65,
+              67,
+              71
+            ]
+          },
+          "choices": [
+            "B",
+            "A",
+            "Ab",
+            "D"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "note-id",
+          "prompt": {
+            "am": "በዚህ ትምህርት የግራ እጅ ኖታን የሚይዘው ማን ነው?",
+            "en": "Who holds the left-hand note in this lesson?"
+          },
+          "choices": [
+            "ተጫዋቹ ራሱ · The player, themselves",
+            "መተግበሪያው ብቻ · The app, automatically",
+            "ሜትሮኖሙ · The metronome",
+            "ምንም አይያዝም · No one holds it"
+          ],
+          "answer": 0
+        }
       ]
     },
     {
@@ -252,21 +747,94 @@
       "widget": "melody",
       "scale": "ambassel",
       "micro": true,
-      "melody": [0, 2, 1, 0, 3, 4, 3, 0],
-      "title": { "am": "አምባሰል በኪቦርድ", "en": "Ambassel on the Keys" },
-      "goal": { "am": "C አምባሰልን C–Db–F–G–Abን በመጠቀም Dbን ወደ Cን በዜማ ውስጥ በጥንቃቄ ማስቀመጥ።", "en": "Use C Ambassel's C–Db–F–G–Ab, carefully placing Db's resolution into C within the phrase." },
+      "melody": [
+        0,
+        2,
+        1,
+        0,
+        3,
+        4,
+        3,
+        0
+      ],
+      "title": {
+        "am": "አምባሰል በኪቦርድ",
+        "en": "Ambassel on the Keys"
+      },
+      "goal": {
+        "am": "C አምባሰልን C–Db–F–G–Abን በመጠቀም Dbን ወደ Cን በዜማ ውስጥ በጥንቃቄ ማስቀመጥ።",
+        "en": "Use C Ambassel's C–Db–F–G–Ab, carefully placing Db's resolution into C within the phrase."
+      },
       "body": {
         "am": "C አምባሰል C–Db–F–G–Ab ነው። Db ከC አንድ ኪ ብቻ ከፍ ያለ ጎረቤት ሲሆን ወደ Cን ሲመለስ የናፍቆት ስሜት ይፈጥራል። እንደ ተለመደው ኪቦርዱ የቀኝ እጅ ዜማ ብቻ ያሳያል፤ Cን በግራ እጅ ይያዙ። ከታች ያለውን C–F–Db–C–G–Ab–G–C ዜማ ያዳምጡ፤ Dbን አትቸኩሉ።",
         "en": "C Ambassel is C–Db–F–G–Ab. Db sits just one key above C, and its return to C carries a yearning feeling. As before, the keyboard shows only the right-hand melody; hold C with your left hand. Listen to the C–F–Db–C–G–Ab–G–C phrase below — do not rush the Db."
       },
       "exercises": [
-        { "type": "technique", "instruction": { "am": "የግራ እጅ Cን ይያዙና ከታች ያለውን ዜማ በቀኝ እጅ ብቻ ይጫወቱ።", "en": "Hold the left-hand C and play the melody below with your right hand alone." } },
-        { "type": "phrase", "instruction": { "am": "C–Db–Cን ለብቻው በቀስታ ይድገሙ፤ Db ወደ C ሲፈታ የሚፈጠረውን ስሜት ያዳምጡ።", "en": "Repeat C–Db–C alone slowly and listen for the resolving feeling as Db settles into C." } }
+        {
+          "type": "technique",
+          "instruction": {
+            "am": "የግራ እጅ Cን ይያዙና ከታች ያለውን ዜማ በቀኝ እጅ ብቻ ይጫወቱ።",
+            "en": "Hold the left-hand C and play the melody below with your right hand alone."
+          }
+        },
+        {
+          "type": "phrase",
+          "instruction": {
+            "am": "C–Db–Cን ለብቻው በቀስታ ይድገሙ፤ Db ወደ C ሲፈታ የሚፈጠረውን ስሜት ያዳምጡ።",
+            "en": "Repeat C–Db–C alone slowly and listen for the resolving feeling as Db settles into C."
+          }
+        }
       ],
       "quiz": [
-        { "type": "note-id", "prompt": { "am": "የC አምባሰል ኖታዎች የትኞቹ ናቸው?", "en": "Which notes make C Ambassel?" }, "choices": ["C Db F G Ab", "C E F G B", "C D E G A", "C Db F Gb A"], "answer": 0 },
-        { "type": "ear-training", "prompt": { "am": "C–Db–Cን ያዳምጡ። Db ወደ C ይፈታል?", "en": "Listen to C–Db–C. Does Db resolve to C?" }, "audio": { "midis": [60, 61, 60] }, "choices": ["አዎን · Yes", "አይ፣ ወደ G ይሄዳል · No, to G", "አይለወጥም · It stays still", "ኦክታቭ ይዘላል · It jumps an octave"], "answer": 0 },
-        { "type": "note-id", "prompt": { "am": "Db ከCን ምን ያህል ይርቃል?", "en": "How far is Db from C?" }, "choices": ["አንድ ኪ ብቻ · Just one key", "ሦስት ኪ · Three keys", "አንድ ኦክታቭ · One octave", "አይራራቁም · They are the same"], "answer": 0 }
+        {
+          "type": "note-id",
+          "prompt": {
+            "am": "የC አምባሰል ኖታዎች የትኞቹ ናቸው?",
+            "en": "Which notes make C Ambassel?"
+          },
+          "choices": [
+            "C Db F G Ab",
+            "C E F G B",
+            "C D E G A",
+            "C Db F Gb A"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "ear-training",
+          "prompt": {
+            "am": "C–Db–Cን ያዳምጡ። Db ወደ C ይፈታል?",
+            "en": "Listen to C–Db–C. Does Db resolve to C?"
+          },
+          "audio": {
+            "midis": [
+              60,
+              61,
+              60
+            ]
+          },
+          "choices": [
+            "አዎን · Yes",
+            "አይ፣ ወደ G ይሄዳል · No, to G",
+            "አይለወጥም · It stays still",
+            "ኦክታቭ ይዘላል · It jumps an octave"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "note-id",
+          "prompt": {
+            "am": "Db ከCን ምን ያህል ይርቃል?",
+            "en": "How far is Db from C?"
+          },
+          "choices": [
+            "አንድ ኪ ብቻ · Just one key",
+            "ሦስት ኪ · Three keys",
+            "አንድ ኦክታቭ · One octave",
+            "አይራራቁም · They are the same"
+          ],
+          "answer": 0
+        }
       ]
     },
     {
@@ -274,21 +842,96 @@
       "widget": "melody",
       "scale": "anchihoye",
       "micro": true,
-      "melody": [0, 1, 2, 3, 2, 1, 4, 0],
-      "title": { "am": "አንቺሆዬ በኪቦርድ", "en": "Anchihoye on the Keys" },
-      "goal": { "am": "C አንቺሆዬን C–Db–F–Gb–Aን በመጠቀም Gን ሳይጠቀሙ ደፋርና ሰፊ ዜማ መጫወት።", "en": "Use C Anchihoye's C–Db–F–Gb–A, without G, to play a bold, spacious phrase." },
+      "melody": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1,
+        4,
+        0
+      ],
+      "title": {
+        "am": "አንቺሆዬ በኪቦርድ",
+        "en": "Anchihoye on the Keys"
+      },
+      "goal": {
+        "am": "C አንቺሆዬን C–Db–F–Gb–Aን በመጠቀም Gን ሳይጠቀሙ ደፋርና ሰፊ ዜማ መጫወት።",
+        "en": "Use C Anchihoye's C–Db–F–Gb–A, without G, to play a bold, spacious phrase."
+      },
       "body": {
         "am": "C አንቺሆዬ C–Db–F–Gb–A ነው፤ Gን አይጠቀምም። ይህ ቅኝት ከሌሎቹ የበለጠ ደፋርና ሰፊ ይሰማል። ኪቦርዱ የቀኝ እጅ ዜማ ብቻ ያሳያል፤ Cን በግራ እጅ ይያዙ። ከታች ያለውን C–Db–F–Gb–F–Db–A–C ዜማ ያዳምጡ፤ Gb ካለው ውጥረት ወደ Aን ሲከፈት ያድምጡ።",
         "en": "C Anchihoye is C–Db–F–Gb–A; it does not use G, which gives it a bolder, more spacious sound than the other kiñit. The keyboard shows only the right-hand melody; hold C with your left hand. Listen to the C–Db–F–Gb–F–Db–A–C phrase below, and hear how the tension of Gb opens into A."
       },
       "exercises": [
-        { "type": "technique", "instruction": { "am": "የግራ እጅ Cን ይያዙና ከታች ያለውን ዜማ በቀኝ እጅ ብቻ ይጫወቱ።", "en": "Hold the left-hand C and play the melody below with your right hand alone." } },
-        { "type": "phrase", "instruction": { "am": "F–Gb–Fን ለብቻው ይድገሙ፤ ከዚያ ወደ Aን ሲከፈት ያዳምጡ።", "en": "Repeat F–Gb–F alone, then listen for how it opens into A." } }
+        {
+          "type": "technique",
+          "instruction": {
+            "am": "የግራ እጅ Cን ይያዙና ከታች ያለውን ዜማ በቀኝ እጅ ብቻ ይጫወቱ።",
+            "en": "Hold the left-hand C and play the melody below with your right hand alone."
+          }
+        },
+        {
+          "type": "phrase",
+          "instruction": {
+            "am": "F–Gb–Fን ለብቻው ይድገሙ፤ ከዚያ ወደ Aን ሲከፈት ያዳምጡ።",
+            "en": "Repeat F–Gb–F alone, then listen for how it opens into A."
+          }
+        }
       ],
       "quiz": [
-        { "type": "note-id", "prompt": { "am": "የC አንቺሆዬ ኖታዎች የትኞቹ ናቸው?", "en": "Which notes make C Anchihoye?" }, "choices": ["C Db F Gb A", "C Db F G Ab", "C E F G B", "C D E G A"], "answer": 0 },
-        { "type": "ear-training", "prompt": { "am": "ቅኝቱን ያዳምጡ። Gን ትሰሙታላችሁ?", "en": "Listen to the scale. Do you hear a G?" }, "audio": { "midis": [60, 61, 65, 66, 69] }, "choices": ["አይ፣ የለም · No, it is absent", "አዎን፣ አለ · Yes, it is there", "G ብቻ ነው የሚሰማው · Only G is heard", "ኖታ አይሰማም · No notes are heard"], "answer": 0 },
-        { "type": "note-id", "prompt": { "am": "አንቺሆዬ ከሌሎቹ ቅኝቶች የበለጠ ምን ይሰማል?", "en": "What does Anchihoye sound like compared to the others?" }, "choices": ["ደፋርና ሰፊ · Bolder and more spacious", "ጸጥ ያለና ትንሽ · Quieter and smaller", "ልክ እንደ ትዝታ · Identical to Tizita", "ምንም ልዩነት የለውም · No different at all"], "answer": 0 }
+        {
+          "type": "note-id",
+          "prompt": {
+            "am": "የC አንቺሆዬ ኖታዎች የትኞቹ ናቸው?",
+            "en": "Which notes make C Anchihoye?"
+          },
+          "choices": [
+            "C Db F Gb A",
+            "C Db F G Ab",
+            "C E F G B",
+            "C D E G A"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "ear-training",
+          "prompt": {
+            "am": "ቅኝቱን ያዳምጡ። Gን ትሰሙታላችሁ?",
+            "en": "Listen to the scale. Do you hear a G?"
+          },
+          "audio": {
+            "midis": [
+              60,
+              61,
+              65,
+              66,
+              69
+            ]
+          },
+          "choices": [
+            "አይ፣ የለም · No, it is absent",
+            "አዎን፣ አለ · Yes, it is there",
+            "G ብቻ ነው የሚሰማው · Only G is heard",
+            "ኖታ አይሰማም · No notes are heard"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "note-id",
+          "prompt": {
+            "am": "አንቺሆዬ ከሌሎቹ ቅኝቶች የበለጠ ምን ይሰማል?",
+            "en": "What does Anchihoye sound like compared to the others?"
+          },
+          "choices": [
+            "ደፋርና ሰፊ · Bolder and more spacious",
+            "ጸጥ ያለና ትንሽ · Quieter and smaller",
+            "ልክ እንደ ትዝታ · Identical to Tizita",
+            "ምንም ልዩነት የለውም · No different at all"
+          ],
+          "answer": 0
+        }
       ]
     },
     {
@@ -296,22 +939,125 @@
       "widget": "melody",
       "scale": "tizita",
       "micro": true,
-      "melody": [0, 2, 4, 3, 2, 0, 4, 0],
-      "title": { "am": "አራቱ ቅኝቶች—የኪቦርድ ትርዒት", "en": "Four-Kiñit Keyboard Capstone" },
-      "goal": { "am": "ትዝታ፣ ባቲ፣ አምባሰልና አንቺሆዬን ሁለቱን እጅ በመጠቀም ተከታትሎ ማቅረብ።", "en": "Perform Tizita, Bati, Ambassel, and Anchihoye back to back, using both hands throughout." },
+      "melody": [
+        0,
+        2,
+        4,
+        3,
+        2,
+        0,
+        4,
+        0
+      ],
+      "title": {
+        "am": "አራቱ ቅኝቶች—የኪቦርድ ትርዒት",
+        "en": "Four-Kiñit Keyboard Capstone"
+      },
+      "goal": {
+        "am": "ትዝታ፣ ባቲ፣ አምባሰልና አንቺሆዬን ሁለቱን እጅ በመጠቀም ተከታትሎ ማቅረብ።",
+        "en": "Perform Tizita, Bati, Ambassel, and Anchihoye back to back, using both hands throughout."
+      },
       "body": {
         "am": "የመጨረሻ ትርዒትዎ አራት ክፍሎች አሉት፤ በሁሉም ውስጥ የግራ እጅ Cን ይይዛል፣ የቀኝ እጅ የቅኝቱን ዜማ ይጫወታል፦ ትዝታ C–E–A–G–E–C–A–C፤ ባቲ C–E–F–G–B–G–E–C፤ አምባሰል C–F–Db–C–G–Ab–G–C፤ አንቺሆዬ C–Db–F–Gb–F–Db–A–C። ኪቦርዱ እያንዳንዱን የቀኝ እጅ ክፍል ብቻ በተራ ያሳይዎታል፤ የግራ እጅ Cን በሁሉም ውስጥ እርስዎ ይያዙ።",
         "en": "Your final performance has four sections; in each, the left hand holds C while the right hand plays that kiñit's phrase: Tizita C–E–A–G–E–C–A–C; Bati C–E–F–G–B–G–E–C; Ambassel C–F–Db–C–G–Ab–G–C; Anchihoye C–Db–F–Gb–F–Db–A–C. The keyboard demonstrates each right-hand part in turn; you hold the left-hand C yourself throughout."
       },
       "exercises": [
-        { "type": "performance", "instruction": { "am": "እያንዳንዱን ቅኝት ለብቻው በ72 BPM አራት ጊዜ ይጫወቱ፤ Cን በግራ እጅ ይያዙ።", "en": "Practice each kiñit alone four times at 72 BPM, holding C with your left hand." } },
-        { "type": "performance", "instruction": { "am": "አራቱን ክፍሎች ሳያቋርጡ ያገናኙ፤ የግራ እጅ Cን በሁሉም ውስጥ ሳይለቁ ይያዙ።", "en": "Connect all four sections without stopping, keeping the left-hand C held throughout." } }
+        {
+          "type": "performance",
+          "instruction": {
+            "am": "እያንዳንዱን ቅኝት ለብቻው በ72 BPM አራት ጊዜ ይጫወቱ፤ Cን በግራ እጅ ይያዙ።",
+            "en": "Practice each kiñit alone four times at 72 BPM, holding C with your left hand."
+          }
+        },
+        {
+          "type": "performance",
+          "instruction": {
+            "am": "አራቱን ክፍሎች ሳያቋርጡ ያገናኙ፤ የግራ እጅ Cን በሁሉም ውስጥ ሳይለቁ ይያዙ።",
+            "en": "Connect all four sections without stopping, keeping the left-hand C held throughout."
+          }
+        }
       ],
       "quiz": [
-        { "type": "note-id", "prompt": { "am": "በዚህ ትርዒት ውስጥ የግራ እጅ ሚና ምንድን ነው?", "en": "What is the left hand's role in this performance?" }, "choices": ["Cን እንደ መሠረት ይዞ ማቆየት · Holding C as a steady root", "የቀኝ እጅን ዜማ መድገም · Repeating the right hand's melody", "ሜትሮኖሙን መቆጣጠር · Controlling the metronome", "ምንም ሚና የለውም · It has no role"], "answer": 0 },
-        { "type": "ear-training", "prompt": { "am": "ይህን C–F–Db–C–G–Ab–G–C ሐረግ ያዳምጡ። የትኛው ቅኝት ነው?", "en": "Listen to C–F–Db–C–G–Ab–G–C. Which kiñit is it?" }, "audio": { "midis": [60, 65, 61, 60, 67, 68, 67, 60] }, "choices": ["አምባሰል · Ambassel", "ትዝታ · Tizita", "ባቲ · Bati", "አንቺሆዬ · Anchihoye"], "answer": 0 },
-        { "type": "ear-training", "prompt": { "am": "ይህን C–Db–F–Gb–F–Db–A–C ሐረግ ያዳምጡ። የትኛው ቅኝት ነው?", "en": "Listen to C–Db–F–Gb–F–Db–A–C. Which kiñit is it?" }, "audio": { "midis": [60, 61, 65, 66, 65, 61, 69, 60] }, "choices": ["አንቺሆዬ · Anchihoye", "ባቲ · Bati", "ትዝታ · Tizita", "አምባሰል · Ambassel"], "answer": 0 },
-        { "type": "note-id", "prompt": { "am": "ይህ ትርዒት ሙሉ በሙሉ ሲጠናቀቅ ምን አረጋገጡ?", "en": "What have you confirmed by completing this full performance?" }, "choices": ["አራቱንም ቅኝቶች በሁለት እጅ መጫወት እንደሚችሉ · That you can play all four kiñit with two hands", "ኮርድ ብቻ እንደሚያውቁ · That you know only chords", "ቅኝት መለየት እንደማይችሉ · That you cannot distinguish kiñit", "ግራ እጅ አያስፈልግም · That the left hand is unnecessary"], "answer": 0 }
+        {
+          "type": "note-id",
+          "prompt": {
+            "am": "በዚህ ትርዒት ውስጥ የግራ እጅ ሚና ምንድን ነው?",
+            "en": "What is the left hand's role in this performance?"
+          },
+          "choices": [
+            "Cን እንደ መሠረት ይዞ ማቆየት · Holding C as a steady root",
+            "የቀኝ እጅን ዜማ መድገም · Repeating the right hand's melody",
+            "ሜትሮኖሙን መቆጣጠር · Controlling the metronome",
+            "ምንም ሚና የለውም · It has no role"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "ear-training",
+          "prompt": {
+            "am": "ይህን C–F–Db–C–G–Ab–G–C ሐረግ ያዳምጡ። የትኛው ቅኝት ነው?",
+            "en": "Listen to C–F–Db–C–G–Ab–G–C. Which kiñit is it?"
+          },
+          "audio": {
+            "midis": [
+              60,
+              65,
+              61,
+              60,
+              67,
+              68,
+              67,
+              60
+            ]
+          },
+          "choices": [
+            "አምባሰል · Ambassel",
+            "ትዝታ · Tizita",
+            "ባቲ · Bati",
+            "አንቺሆዬ · Anchihoye"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "ear-training",
+          "prompt": {
+            "am": "ይህን C–Db–F–Gb–F–Db–A–C ሐረግ ያዳምጡ። የትኛው ቅኝት ነው?",
+            "en": "Listen to C–Db–F–Gb–F–Db–A–C. Which kiñit is it?"
+          },
+          "audio": {
+            "midis": [
+              60,
+              61,
+              65,
+              66,
+              65,
+              61,
+              69,
+              60
+            ]
+          },
+          "choices": [
+            "አንቺሆዬ · Anchihoye",
+            "ባቲ · Bati",
+            "ትዝታ · Tizita",
+            "አምባሰል · Ambassel"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "note-id",
+          "prompt": {
+            "am": "ይህ ትርዒት ሙሉ በሙሉ ሲጠናቀቅ ምን አረጋገጡ?",
+            "en": "What have you confirmed by completing this full performance?"
+          },
+          "choices": [
+            "አራቱንም ቅኝቶች በሁለት እጅ መጫወት እንደሚችሉ · That you can play all four kiñit with two hands",
+            "ኮርድ ብቻ እንደሚያውቁ · That you know only chords",
+            "ቅኝት መለየት እንደማይችሉ · That you cannot distinguish kiñit",
+            "ግራ እጅ አያስፈልግም · That the left hand is unnecessary"
+          ],
+          "answer": 0
+        }
       ]
     }
   ]

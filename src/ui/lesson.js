@@ -507,7 +507,7 @@ function buildConsole(view, app, L, ctx) {
     row.innerHTML = `<span class="play-note">እያንዳንዱን ኪ ተጫኑ፤ ስሙን ይመልከቱ · press each key to hear its name</span>`;
   } else if (L.widget === 'tuner') {
     const tones = L.referenceTones || [];
-    tones.forEach((tone) => row.appendChild(button(`♪ ${tone.label}`, () => { unlockAudio(); playNote(tone.midi, 'acoustic', 0, 1.8); })));
+    tones.forEach((tone) => row.appendChild(button(`♪ ${tone.label}`, () => { unlockAudio(); playNote(tone.midi, INSTRUMENTS[app.state.instrument].tone, 0, 1.8); })));
     const hint = el('span', 'play-note');
     hint.textContent = 'እያንዳንዱን ድምፅ ደጋግመው ማጫወት ይችላሉ · replay each tone as often as needed';
     row.appendChild(hint);

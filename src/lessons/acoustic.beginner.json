@@ -58,7 +58,7 @@
       "widget": "melody",
       "scale": "tizita",
       "micro": true,
-      "melody": [0, 1, 2, 3, 4, 3, 1, 0],
+      "melody": [0, 1, 3, 2, 4, 3, 1, 0],
       "title": { "am": "የትዝታ ኖታዎችና ተለዋጭ ፒኪንግ", "en": "Tizita Notes and Alternate Picking" },
       "goal": { "am": "C–D–E–G–Aን በክፍት ቦታ ላይ ማግኘትና ፒኩን ወደ ታችና ወደ ላይ እያፈራረቁ መጫወት።", "en": "Find C–D–E–G–A in open position and play them with alternating down–up pick strokes." },
       "body": {
@@ -212,7 +212,7 @@
       "widget": "melody",
       "scale": "tizita",
       "micro": true,
-      "melody": [0, 1, 3, 2, 4, 3, 1, 0],
+      "melody": [0, 4, 1, 3, 2, 4, 1, 0],
       "title": { "am": "አራቱ ቅኝቶች—የአኮስቲክ ትርዒት", "en": "Four-Kiñit Acoustic Performance" },
       "goal": { "am": "ለእያንዳንዱ ቅኝት የተለየ የአኮስቲክ ዘዴ በመጠቀም አራት ኦሪጅናል የ6/8 ሐረጎችን ማቅረብ።", "en": "Perform four original 6/8 phrases, using a distinct acoustic technique for each kiñit." },
       "body": {
