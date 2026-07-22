@@ -10,3 +10,5 @@ android/build/
 android/.gradle/
 *.keystore
 *.jks
+.vercel
+.env*
