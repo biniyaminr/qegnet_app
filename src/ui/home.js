@@ -16,7 +16,7 @@ function previewScale(scaleKey) {
 }
 
 export function renderHome(app) {
-  const view = el('div', 'view');
+  const view = el('div', 'view home-view');
 
   const scaleCards = SCALE_ORDER.map((key) => {
     const s = SCALES[key];
@@ -47,7 +47,7 @@ export function renderHome(app) {
   }).join('');
 
   view.innerHTML = `
-    <div class="wrap">
+    <div class="wrap home-wrap">
       <div class="hero">
         <h1 class="mark">ቅኝት</h1>
         <p class="sub-am">የአማርኛ ሙዚቃ ትምህርት ቤት</p>
